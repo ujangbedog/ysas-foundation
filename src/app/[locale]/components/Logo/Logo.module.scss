@@ -1,0 +1,54 @@
+@import "~/styles/variables.scss";
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  gap: 4%;
+
+  &__black svg {
+    fill: $color-black;
+  }
+
+  &__white svg {
+    fill: $color-white;
+  }
+
+  &__icon {
+    position: relative;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+  }
+  
+
+  &__text {
+    height: 80%;
+    aspect-ratio: 7 / 2.3;
+  }
+
+  svg {
+    height: 100%;
+    width: 100%;
+
+    path {
+      &.fill-purple {
+        fill: $color-purple;
+      }
+
+      &.fill-orange {
+        fill: $color-orange;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .logo--responsive {
+    align-items: flex-start;
+
+    .logo__text {
+      display: none;
+    }
+  }
+}

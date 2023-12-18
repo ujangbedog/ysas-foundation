@@ -1,0 +1,55 @@
+@import "~/styles/functions.scss";
+
+@mixin animate($animation, $duration, $method, $times) {
+  animation: $animation $duration $method $times forwards;
+}
+
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin shrink-down-animation {
+  @include keyframes(shrinkDown) {
+    from {
+      height: fit-content;
+    }
+    to {
+      height: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      display: none;
+    }
+  }
+
+  @include animate(shrinkDown, 8s, linear, 1);
+}
+
+@mixin card {
+  box-shadow: 0 1px 5px -2px #000000aa;
+}
+
+@mixin card-elevated {
+  box-shadow: 0 1px 7px -2px #00000066;
+}
+
+@mixin section-spaced {
+  padding: spacing(15) spacing(8);
+}
+
+@mixin section {
+  padding: spacing(10) spacing(8);
+}
+
+@mixin section-lg {
+  padding: spacing(8);
+}
+
+@mixin section-md {
+  padding: spacing(6) spacing(4);
+}
+
+@mixin section-sm {
+  padding: spacing(5) spacing(4);
+}

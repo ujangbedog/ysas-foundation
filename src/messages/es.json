@@ -1,0 +1,276 @@
+{
+  "generic": {
+    "-": "",
+    "seconds": "segundos",
+    "minutes": "minutos",
+    "hours": "horas",
+    "days": "días",
+    "launch": "Nuestra página estará disponible en",
+    "launch-date": "Diciembre 10, 2023.",
+    "success-btn": "✅ Tu solicitud ha sido enviada exitosamente."
+  },
+  "nav": {
+    "home": "Inicio",
+    "ambassadors": "Embajadoras/es",
+    "contact": "Contáctanos",
+    "faqs": "FAQs",
+    "projects-cta": "Dona aquí",
+    "request-therapy-cta": "Solicitar terapia"
+  },
+  "footer": {
+    "rights": "@2023 todos los derechos reservados",
+    "tax-disclaimer": "Paramar Foundation es una organización exenta de impuestos según la Sección 501(c)(3) del Código de Rentas Internas de los Estados Unidos. <docs>Ver documentos legales.</docs>."
+  },
+  "hero": {
+    "source": "Organización Mundial de la Salud, 2019/ UN Women, 2022",
+    "quote": "Cada <b>2 segundos</b> una mujer o niña no recibe apoyo psicológico tras una agresión sexual quedando marcada de por vida.",
+    "cta": "AYÚDANOS A EVITARLO",
+    "know-more": "Conoce más"
+  },
+  "mission": {
+    "title": "Nuestra misión",
+    "description": "Que toda mujer o niña víctima de agresión sexual tenga acceso a apoyo psicológico.",
+    "content": "Nos dedicamos a proporcionar apoyo psicológico a mujeres y niñas que son víctimas de agresiones sexuales y a conseguirlo de manera gratuita para aquellas que carecen de recursos. Lo hacemos a través de proyectos externos e internos que financiamos con el 100% de nuestros beneficios y donaciones.",
+    "learn-more": "Conoce nuestros proyectos"
+  },
+  "about-us": {
+    "title": "Sobre nosotras",
+    "description": "Conoce más sobre nuestra intención y objetivo como fundación, así como también sobre quiénes somos como fundación y cómo asignamos todas nuestras donaciones.",
+    "what-we-do": {
+      "title": "¿Qué hacemos?",
+      "item-1": "Ofrecemos sesiones individualizadas y personalizadas de terapia, a través de nuestro equipo de psicólogos, a mujeres y niñas víctimas de agresiones sexuales. Las sesiones se ofrecen en formato presencial y remoto, individual y grupal.",
+      "item-2": "Hacemos campañas e impartimos cursos de sensibilización a empresas e instituciones para ayudar a reducir el número de mujeres y niñas agredidas."
+    },
+    "how-we-help": {
+      "title": "¿Cómo ayudamos?",
+      "item-1": "El 100% de los beneficios de estas terapias y cursos irán destinados a dar apoyo psicológico gratuito a otras mujeres y niñas, sin recursos, que son también víctimas de agresiones sexuales.",
+      "item-2": "Ofrecemos una plataforma para que otras personas contribuyan con esta misión a través de donaciones a nuestros proyectos."
+    },
+    "who-we-are": {
+      "title": "¿Quiénes somos?",
+      "item-1": "Somos un grupo de profesionales con más de 20 años de experiencia en el campo de la psicología clínica y la dirección de proyectos sociales. Nuestros embajadores y gestores de Paramar Foundation han levantado y gestionado fondos por más de $1Bn USD durante sus carreras, generando un impacto económico y social positivo para diversas regiones a través de colaboraciones con Prodis, Banco iberoamericano de comercio, Naciones Unidas, Instituto mexicano de identidad sexual, etc."
+    }
+  },
+  "ambassadors": {
+    "subtitle": "Nuestras Embajadoras/es",
+    "title": "Conoce a las personas que apoyan y están detrás de <purple>Paramar Foundation</purple>",
+    "content": "Nuestras embajadoras y embajadores son el alma y el motor que impulsa nuestra causa. Son personas apasionadas y comprometidas  que trabajan incansablemente para promover un cambio positivo en nuestro mundo",
+    "section-cta": "Contáctanos",
+    "know-more": "Conoce más"
+  },
+  "numbers": {
+    "title": "La problemática en cifras",
+    "1": {
+      "number": "3",
+      "type": "Billones de mujeres",
+      "description": "Serán víctimas de algún tipo de violencia sexual durante los próximos 75 años."
+    },
+    "2": {
+      "number": "70%",
+      "type": "De las víctimas",
+      "description": "No tiene acceso a apoyo psicológico tras la agresión."
+    },
+    "3": {
+      "number": "130",
+      "type": "Mil mujeres y niñas",
+      "description": "Que han sufrido agresión sexual se suicidan cada año."
+    },
+    "cta": "Ayúdanos a evitarlo",
+    "source": "Organización Mundial de la Salud, 2019/ UN Women, 2022"
+  },
+  "goals": {
+    "title": "Nuestras metas para el 2030",
+    "1": {
+      "number": "250K",
+      "description": "Esperamos que 250.000 mujeres y niñas que reciban apoyo psicológico."
+    },
+    "2": {
+      "number": "1M",
+      "description": "Un millón de horas gratuitas de apoyo psicológico a mujeres y niñas."
+    },
+    "3": {
+      "number": "25M",
+      "description": "25 millones de dólares invertidos en causas sociales."
+    },
+    "4": {
+      "number": "80%",
+      "description": "De terapias gratuitas en los países más pobres y con mayor prevalencia."
+    },
+    "5": {
+      "number": "+1K",
+      "description": "De formaciones a instituciones públicas y privadas."
+    },
+    "6": {
+      "number": "+5K",
+      "description": "Más de 5.000 usuarias de terapias de pago."
+    }
+  },
+  "why-us": {
+    "title": "¿Por qué donar con nosotras?",
+    "subtitle": "Conoce nuestros proyectos",
+    "why-donate": "Why donate to us?",
+    "1": {
+      "title": "Cuánto más das más ahorras",
+      "description": "Las donaciones a fundaciones sin ánimo de lucro son la mejor manera de pagar menos impuestos"
+    },
+    "2": {
+      "title": "20 años de experiencia",
+      "description": "Gestionando proyectos escalables y capital aplicado a generar impacto social"
+    },
+    "3": {
+      "title": "Transparencia",
+      "description": "Nuestras cuentas son públicas, transparentes y auditadas, el primer trimestre de cada año"
+    },
+    "cta": "Dona ahora"
+  },
+  "therapy": {
+    "title": "¿Por qué tomar terapia con nosotras?",
+    "subtitle": "Comenzar terapia",
+    "why-donate": "Why donate to us?",
+    "1": {
+      "title": "Tu terapia aquí es esperanza para otras",
+      "description": "Por cada hora de terapia de pago una mujer o niña con bajos recursos recibe una hora gratuita de apoyo psicológico."
+    },
+    "2": {
+      "title": "Somos especialistas",
+      "description": "Expertos en psicología clínica aplicada a trastornos y traumas provocados por agresiones sexuales."
+    },
+    "cta": "Solicitar terapia de pago"
+  },
+  "professionals": {
+    "title": "Nuestras profesionales",
+    "profile-picture": "Foto de perfil de {name}",
+    "camila-gonzalez": {
+      "name": "Camila Gonzalez",
+      "expertise-1": "Infancia y adolecencia",
+      "expertise-2": "Violencia de género",
+      "expertise-3": "Familia",
+      "description": "Destacada psicóloga especializada en terapia de violencia sexual. Con una sólida formación académica y una amplia experiencia en el campo. Camila brinda apoyo terapéutico a las mujeres víctimas de violencia sexual en su proceso de recuperación. Su enfoque terapéutico es cálido y empático, creando un espacio seguro donde las sobrevivientes pueden compartir sus experiencias y emociones. Utiliza técnicas terapéuticas basadas en la evidencia, como la terapia cognitivo-conductual y la terapia de exposición, para abordar el trauma y los efectos a largo plazo."
+    }
+  },
+  "contact-us": {
+    "title": "Contáctanos",
+    "description": "¿Buscas un taller de sensibilización y buenas prácticas para tu empresa, terapia personal o quieres colaborar con nosotras?",
+    "name": "Nombre(s)",
+    "last-name": "Apellido(s)",
+    "email": "Correo Electrónico",
+    "information": "¿Qué información buscas?",
+    "options": {
+      "workshop": "Taller de sensibilización",
+      "good-practice": "Buenas prácticas para tu institución",
+      "therapy": "Terapia personal paga",
+      "collaborate": "Colabora con nosotras"
+    },
+    "send-btn": "Enviar"
+  },
+  "projects": {
+    "subtitle": "Nuestros proyectos",
+    "title": "Sé parte del cambio",
+    "description": "Tu apoyo generoso a alguno de nuestros proyectos es un paso valioso hacia un mundo mejor, donde más mujeres y niñas puedan recibir la ayuda que necesitan.",
+    "thank-you": "¡Gracias! Todas las donaciones recibidas son deducibles de impuestos.",
+    "donate-card-last-donation": "Última donación: {time} {unit}",
+    "share-card-btn": "Compartir",
+    "donate-card-btn": "Dona ahora",
+    "share-card-btn-copied": "¡Url copiada en portapapeles!",
+    "total-donations": "{total} donaciones",
+    "raised": "recolectados de",
+    "caption": "<b>Paramar Foundation</b> busca ofrecer apoyo psicológico gratuito a mujeres y niñas que hayan sido víctimas de agresiones sexuales en algún momento de su vida.",
+    "disclaimer-title": "<b>Paramar Foundation</b> es seguro:",
+    "disclaimer-content": "Todas tus donaciones están siendo protegidas por estrictas medidas de seguridad y procedimientos diseñados que garantizan que tu generosidad llegará de manera segura a quienes más lo necesitan.",
+    "page": {
+      "title": "Únete a nosotras",
+      "description": "Conoce nuestros proyectos de donación",
+      "content": "Explora aquí todos nuestros proyectos internos y colaboraciones con otras fundaciones, diseñados para transformar positivamente las vidas de mujeres y niñas a través de la terapia psicológica."
+    }
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "1": {
+      "question": "¿Cuál es la misión de su organización sin fines de lucro?",
+      "answer": "Nuestra misión es mejorar la salud mental de las mujeres que han experimentado agresión sexual, proporcionando terapia de salud mental gratuita a aquellas con recursos financieros limitados y recaudando fondos para apoyar nuestras iniciativas en todo el mundo."
+    },
+    "2": {
+      "question": "¿A quienes sirve principalmente su organización?",
+      "answer": "Principalmente servimos a mujeres que han sido víctimas de agresión sexual, independientemente de su edad, origen o ubicación. Nuestro objetivo es llegar a mujeres a nivel global y brindarles apoyo."
+    },
+    "3": {
+      "question": "¿Cómo puedo donar a su organización?",
+      "answer": "Puede hacer una donación en nuestro sitio web a través de nuestro portal de donaciones seguro. Aceptamos varios métodos de pago, incluyendo tarjetas de crédito/débito y transferencias electrónicas. Además, puede explorar otras formas de apoyarnos en nuestra página \"Sé parte del cambio\"."
+    },
+    "4": {
+      "question": "¿Son deducibles de impuestos las donaciones?",
+      "answer": "Sí, las donaciones realizadas a nuestra organización sin fines de lucro son deducibles de impuestos en la medida permitida por la ley. Proporcionamos recibos de donación para fines fiscales a pedido."
+    },
+    "5": {
+      "question": "¿Dónde va el dinero donado a su organización?",
+      "answer": "Los fondos donados se utilizan principalmente para proporcionar terapia de salud mental gratuita a mujeres que no pueden pagarla. Una parte de los fondos también se destina a costos administrativos, campañas de concientización y esfuerzos de recaudación de fondos para mantener nuestra misión."
+    },
+    "6": {
+      "question": "¿Cómo garantizan la privacidad y confidencialidad de las sesiones de terapia?",
+      "answer": "Tomamos en serio la confidencialidad de los clientes. Todas las sesiones de terapia son realizadas por profesionales con licencia que cumplen estrictas pautas éticas y requisitos legales. Utilizamos plataformas seguras y encriptadas para proteger la información de los clientes.Tomamos en serio la confidencialidad de los clientes. Todas las sesiones de terapia son realizadas por profesionales con licencia que cumplen estrictas pautas éticas y requisitos legales. Utilizamos plataformas seguras y encriptadas para proteger la información de los clientes."
+    },
+    "7": {
+      "question": "¿Pueden las sobrevivientes de agresión sexual acceder a los servicios de terapia en línea?",
+      "answer": "Sí, ofrecemos servicios de terapia en línea a sobrevivientes de todo el mundo. Nuestra plataforma en línea permite a las sobrevivientes acceder a la terapia desde la comodidad y seguridad de su propio espacio."
+    },
+    "8": {
+      "question": "¿Cómo puedo ser voluntario en su organización?",
+      "answer": "Damos la bienvenida a voluntarios que comparten nuestro compromiso de mejorar la salud mental de las sobrevivientes. Puede encontrar información sobre oportunidades de voluntariado en nuestra página \"Sé parte del cambio\"."
+    },
+    "9": {
+      "question": "¿Cómo puedo referir a alguien a sus servicios de terapia?",
+      "answer": "Si conoce a alguien que podría beneficiarse de nuestros servicios, por favor anímelo a visitar nuestro sitio web y completar nuestro formulario de referencia. Nos pondremos en contacto con ellos lo antes posible."
+    },
+    "10": {
+      "question": "¿Ofrecen apoyo para familiares de sobrevivientes?",
+      "answer": "Si bien nuestro enfoque principal está en las sobrevivientes, entendemos la importancia de apoyar a sus seres queridos. Proporcionamos recursos y referencias a redes de apoyo para familiares que buscan ayuda."
+    },
+    "11": {
+      "question": "¿Se enfoca su organización solo en la terapia o tienen otros programas?",
+      "answer": "La terapia es un componente central de nuestro trabajo, pero también nos involucramos en la promoción, campañas de concientización y programas educativos para abordar las causas fundamentales de la agresión sexual y promover la prevención."
+    },
+    "12": {
+      "question": "¿Cómo garantizan la inclusividad y sensibilidad cultural en sus servicios de terapia?",
+      "answer": "Nuestros terapeutas reciben una formación exhaustiva para asegurarse de ser sensibles a las diferencias culturales e individuales. Nos esforzamos por crear un ambiente seguro e inclusivo para todas las sobrevivientes."
+    },
+    "13": {
+      "question": "¿Puedo compartir mi historia como sobreviviente en su plataforma para crear conciencia?",
+      "answer": "Sí, damos la bienvenida a las historias de sobrevivientes como una forma de crear conciencia e inspirar a otros. Puede ponerse en contacto con nosotros a través de nuestro sitio web para discutir la posibilidad de compartir su historia."
+    },
+    "14": {
+      "question": "¿Cómo puedo mantenerme actualizado sobre las actividades y eventos de su organización?",
+      "answer": "Puede suscribirse a nuestro boletín informativo en nuestro sitio web para recibir actualizaciones regulares sobre nuestros programas, eventos y el impacto de su apoyo."
+    },
+    "15": {
+      "question": "¿Cuáles son los objetivos a largo plazo de su organización para mejorar la salud mental de las sobrevivientes de agresión sexual?",
+      "answer": "Nuestros objetivos a largo plazo incluyen expandir nuestro alcance, aumentar el acceso a servicios de salud mental y abogar por políticas que protejan los derechos y el bienestar de las sobrevivientes. Estamos comprometidos en crear cambios positivos duraderos en la vida de las sobrevivientes en todo el mundo."
+    }
+  },
+  "request-therapy": {
+    "title": "Solicita terapia paga",
+    "description": "Cada vez que inviertas en una sesión de terapia, estarás contribuyendo a un fondo que permitirá brindar apoyo psicológico continuo a mujeres y niñas.",
+    "name": "Nombre(s)",
+    "last-name": "Apellido(s)",
+    "email": "Correo Electrónico",
+    "options": {
+      "therapy": "Terapia personal paga"
+    },
+    "send-btn": "Enviar"
+  },
+  "documents": {
+    "title": "Documentos legales",
+    "last-update": "Última actualización: {date}",
+    "go-back-link": "Volver a documentos"
+  },
+  "thank-you": {
+    "title": "¡Gracias <purple>{name}</purple>!",
+    "content": "Tu generosidad nos llena de inspiración. Juntos, estamos cambiando vidas mediante la terapia psicológica como herramienta de sanación.",
+    "back-cta": "Volver a proyectos",
+    "share-cta": "Descargar certificado"
+  },
+  "certificate": {
+    "subtitle": "Otorga un reconocimiento a:",
+    "body": "En agradecimiento por haberse sumado a la causa y ayudarnos a salvar vidas a través de la terapia psicológica.",
+    "details": "Por tu donación de ${amount} a la campaña {campaign}, el día {date}"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "generic": {
+    "-": "",
+    "seconds": "seconds",
+    "minutes": "minutes",
+    "hours": "hours",
+    "days": "days",
+    "launch": "Our page will be available on",
+    "launch-date": "December 10th, 2023.",
+    "success-btn": "✅ Your request have been sent successfully."
+  },
+  "nav": {
+    "home": "Home",
+    "ambassadors": "About Us",
+    "contact": "Contact Us",
+    "faqs": "FAQ’s",
+    "projects-cta": "Donate here",
+    "request-therapy-cta": "Umroh"
+  },
+  "footer": {
+    "rights": "@2023 all rights reserved",
+    "tax-disclaimer": "Yayasan Sanusiah Al-Mansyuriah Sumedang adalah organisasi yang terdaftar di Keputusan Mentri Hukum dan Hak Asasi Manusia Republik Indonesia dengan nomor: AHU-0027215.AH.01.04.Tahun 2021  <docs>Lihat dokumen hukum.</docs>"
+  },
+  "hero": {
+    "source": "",
+    "quote": "Lentera Peradaban Dunia",
+    "cta": "Join with us!",
+    "know-more": "Read more"
+  },
+  "mission": {
+    "title": "Our Vision and Mission",
+    "description": "Lahirnya sumber daya manusia yang religious, saintis, berjiwa entrepreneur, berwawasan international, cinta lingkungan dan menjadi lentera Peradaban dunia",
+    "content1": "1. Menciptakan suasana pendidikan kepesantrenan yang sejuk dan membebaskan dengan memberikan ruang kreativitas, kritisisme, entrepreneurship, dan berwawasan internasional",
+    "content2": "2. Mengimplementasi kurikulum integral antara muatan peneguhan moral spiritual, tradisi keilmuan Islam klasik, dan kompetensi dasar-dasar saintis modern internasional melalui system asrama (boarding) melalui penerapan mangemen pendidikan sistemik, terencana dan terkontrol.",
+    "content3": "3. Memperluas ruang lingkup pendidikan sebagai implementasi dari sabda nabi 'Belajar dimulai dari dalam buaian ibu sampai liang lahat'.",
+    "learn-more": "Learn about our projects"
+  },
+  "about-us": {
+    "title": "About us",
+    "description": "Yayasan Sanusiah Al-Mansuriah Sumedang didirikan dengan tujuan untuk menyebarkan ajaran agama Islam dan membantu masyarakat dalam hal pendidikan dan kesejahteraan sosial. Yayasan ini melakukan kegiatan kegiatan sosial seperti menyediakan sarana dan prasarana pendidikan untuk santri dll.",
+    "what-we-do": {
+      "title": "What do we do?",
+      "item-1": "Menciptakan suasana pendidikan kepesantrenan yang unik, sejuk, dan membebaskan bagi para siswa. Kami berkomitmen untuk memberikan ruang kreativitas, kritisisme, entrepreneurship, dan wawasan internasional agar setiap siswa dapat mengembangkan potensi mereka secara holistik",
+      "item-2": "Kami berkomitmen untuk memperluas ruang lingkup pendidikan. Kami meyakini bahwa proses pembelajaran harus melibatkan semua tahap kehidupan, dan oleh karena itu, kami menyajikan pengalaman belajar yang komprehensif dari masa bayi hingga dewasa, memastikan perkembangan holistik siswa sesuai dengan tuntutan zaman."
+    },
+    "how-we-help": {
+      "title": "How do we help?",
+      "item-1": "Kami memberikan dukungan dengan membentuk lingkungan pendidikan yang memperkaya dan membebaskan di dalam pesantren Islam kami. Komitmen kami terletak pada penyediaan ruang untuk kreativitas, berpikir kritis, kewirausahaan, dan pandangan internasional, memberdayakan setiap siswa untuk menggali potensi mereka sepenuhnya.",
+      "item-2": "Kami menyajikan perjalanan pendidikan yang menyeluruh mulai dari bayi hingga dewasa, memenuhi perkembangan holistik siswa sesuai dengan tuntutan dunia kontemporer untuk membentuk individu yang berdaya, tidak hanya secara akademis tetapi juga dilengkapi dengan keterampilan moral dan praktis yang diperlukan untuk berkembang di masyarakat global yang beragam dan terkoneksi."
+    },
+    "who-we-are": {
+      "title": "Who we are?",
+      "item-1": "Yayasan Sanusiah Al-Mansyuriah Sumedang didirikan oleh seorang pendiri bernama KH. Ita Zaenal Mutaqien pada tahun 2021. Yayasan ini berdiri di Dusun Pangjeleran Rt.03 Rw. 04 Desa Cigintung Kecamatan Cisitu Kabupaten Sumedang, Jawa Barat, Indonesia. KH. Ita Zaenal Mutaqien adalah seorang ulama dan tokoh agama yang sangat dihormati oleh masyarakat Sumedang dan sekitarnya."
+    }
+  },
+  "ambassadors": {
+    "subtitle": "Our Ambassadors",
+    "title": "Get to know the people who support and are behind <purple>Paramar Foundation</purple>",
+    "content": "Our ambassadors are the soul and engine that drives our cause. They are passionate and committed people who work tirelessly to promote positive change in our world.",
+    "section-cta": "Contact us",
+
+    "know-more": "Know them all"
+  },
+  "numbers": {
+    "title": "The Issue in Numbers",
+    "1": {
+      "number": "380",
+      "type": "Peserta didik",
+      "description": "Kesulitan mengembangkan potensi dan inovasi karena kurangnya akses sumber daya, kurikulum yang kurang mendukung kreativitas, dan kurangnya stimulasi untuk berpikir inovatif."
+    },
+    "2": {
+      "number": "70%",
+      "type": "Korban",
+      "description": "tidak memiliki pendukung dan kecerdasan emosional"
+    },
+    "3": {
+      "number": "190",
+      "type": "Peserta didik",
+      "description": "merasa terhimpit atau tidak terpenuhi dalam lingkungan pendidikan mungkin cenderung mencari pelarian dengan menjelajahi jalur yang kurang konstruktif atau bahkan merugikan."
+    },
+    "cta": "Help us prevent it.",
+    "source": "Survey Yayasan Sanusiah Al-Mansyuriah Sumedang, 2023"
+  },
+  "goals": {
+    "title": "Our goals for 2024",
+    "1": {
+      "number": "380+",
+      "description": "We hope to provide Improving Resource Access."
+    },
+    "2": {
+      "number": "1M",
+      "description": "One million free hours of Counseling and Supervision."
+    },
+    "3": {
+      "number": "25M",
+      "description": "25 million dollars to Educational Environment Strengthening."
+    },
+    "4": {
+      "number": "80%",
+      "description": "of Curriculum Reform."
+    },
+    "5": {
+      "number": "+1K",
+      "description": "Over a thousand for Life Skills Training."
+    },
+    "6": {
+      "number": "+5K",
+      "description": "Over 5,000 to learn Emotional Support Development."
+    }
+  },
+  "why-us": {
+    "title": "Why us?",
+    "subtitle": "Get to know our projects",
+    "why-donate": "Why donate to us?",
+    "1": {
+      "title": "The more you give, the more you save",
+      "description": "Donations to nonprofit foundations are the best way to reduce your tax burden."
+    },
+    "2": {
+      "title": "40 years of experience",
+      "description": "Managing scalable projects with capital applied to generate social impact."
+    },
+    "3": {
+      "title": "Transparency",
+      "description": "Our accounts are public, transparent, and audited, within the first quarter of each year."
+    },
+    "cta": "Donate now"
+  },
+  "professionals": {
+    "title": "Our professionals",
+    "profile-picture": "{name} profile picture",
+    "camila-gonzalez": {
+      "name": "Camila Gonzalez",
+      "expertise-1": "Childhood and Adolescence",
+      "expertise-2": "Gender-based Violence",
+      "expertise-3": "Family",
+      "description": "A prominent psychologist specialized in sexual violence therapy. With a solid academic background and extensive experience in the field, Camila provides therapeutic support to women who are victims of sexual violence in their recovery process. Her therapeutic approach is warm and empathetic, creating a safe space where survivors can share their experiences and emotions. She employs evidence-based therapeutic techniques, such as cognitive-behavioral therapy and exposure therapy, to address trauma and its long-term effects."
+    }
+  },
+  "contact-us": {
+    "title": "Contact us",
+    "description": "Are you looking for a sensitivity and best practices workshop for your company, or personal therapy, or want to collaborate with us?",
+    "name": "Name",
+    "last-name": "Last name",
+    "email": "Email Address",
+    "information": "What information are you looking for?",
+    "options": {
+      "workshop": "Awareness workshop",
+      "good-practice": "Good practices for your institution",
+      "therapy": "Paid personal therapy",
+      "collaborate": "Collaborate with us"
+    },
+    "send-btn": "Send"
+  },
+  "projects": {
+    "subtitle": "Our projects",
+    "title": "Be part of the change",
+    "description": "Your generous support for any of our projects is a valuable step toward a better world, where more women and girls can receive the help they need.",
+    "thank-you": "Thank you! All donations received are tax-deductible.",
+    "donate-card-last-donation": "Last donation: {time} {unit}",
+    "share-card-btn": "Share",
+    "share-card-btn-copied": "Url copied to clipboard!",
+    "donate-card-btn": "Donate now",
+    "total-donations": "{total} donations",
+    "raised": "collected out of",
+    "caption": "<b>Paramar Foundation</b>  aims to provide free psychological support to women and girls who have been victims of sexual assaults at any point in their lives",
+    "disclaimer-title": "<b>Paramar Foundation</b> is safe:",
+    "disclaimer-content": "All your donations are being safeguarded by strict security measures and designed procedures, ensuring that your generosity securely reaches those who need it the most.",
+    "page": {
+      "title": "Join us",
+      "description": "Get to know our donation projects",
+      "content": "Explore here all our internal projects and collaborations with other foundations, designed to positively transform the lives of women and girls through psychological therapy."
+    }
+  },
+  "faqs": {
+    "title": "Frequently asked questions",
+    "1": {
+      "question": "What is the mission of your nonprofit organization?",
+      "answer": "Our mission is to improve the mental health of women who have experienced sexual aggression by providing free mental health therapy to those with limited financial resources, and by raising funds to support our initiatives worldwide."
+    },
+    "2": {
+      "question": "Who does your organization primarily serve?",
+      "answer": "We primarily serve women who have been victims of sexual aggression, regardless of their age, background, or location. Our goal is to reach out to women globally and provide support."
+    },
+    "3": {
+      "question": "How can I donate to your organization?",
+      "answer": "You can make a donation on our website through our secure donation portal. We accept various payment methods, including credit/debit cards and electronic transfers. Additionally, you can explore other ways to support us on our \"Get Involved\" page."
+    },
+    "4": {
+      "question": "Are donations tax-deductible?",
+      "answer": "Yes, donations made to our nonprofit organization are tax-deductible to the extent allowed by law. We provide donation receipts for tax purposes upon request."
+    },
+    "5": {
+      "question": "Where does the money donated to your organization go?",
+      "answer": "Donated funds are primarily used to provide free mental health therapy to women who cannot afford it. A portion of the funds also goes toward administrative costs, awareness campaigns, and fundraising efforts to sustain our mission."
+    },
+    "6": {
+      "question": "How do you ensure the privacy and confidentiality of therapy sessions?",
+      "answer": "We take client confidentiality seriously. All therapy sessions are conducted by licensed professionals who adhere to strict ethical guidelines and legal requirements. We use secure and encrypted platforms to protect client information."
+    },
+    "7": {
+      "question": "Can survivors of sexual aggression access therapy services online?",
+      "answer": "Yes, we offer online therapy services to survivors worldwide. Our online platform enables survivors to access therapy from the comfort and safety of their own space."
+    },
+    "8": {
+      "question": "How can I volunteer with your organization?",
+      "answer": "We welcome volunteers who share our commitment to improving mental health for survivors. You can find information about volunteer opportunities on our \"Get Involved\" page."
+    },
+    "9": {
+      "question": "How can I refer someone to your therapy services?",
+      "answer": "If you know someone who could benefit from our services, please encourage them to visit our website and complete our referral form. We will reach out to them as soon as possible."
+    },
+    "10": {
+      "question": "Do you offer support for family members of survivors?",
+      "answer": "While our primary focus is on survivors, we understand the importance of supporting their loved ones. We provide resources and referrals to support networks for family members seeking help."
+    },
+    "11": {
+      "question": "Is your organization only focused on therapy, or do you have other programs?",
+      "answer": "Therapy is a central component of our work, but we also engage in advocacy, awareness campaigns, and educational programs to address the root causes of sexual aggression and promote prevention."
+    },
+    "12": {
+      "question": "How do you ensure inclusivity and cultural sensitivity in your therapy services?",
+      "answer": "Our therapists undergo extensive training to ensure they are sensitive to cultural and individual differences. We strive to create a safe and inclusive environment for all survivors."
+    },
+    "13": {
+      "question": "Can I share my survivor story on your platform to raise awareness?",
+      "answer": "Yes, we welcome survivor stories as a way to raise awareness and inspire others. You can contact us through our website to discuss sharing your story."
+    },
+    "14": {
+      "question": "How can I stay updated on your organization's activities and events?",
+      "answer": "You can subscribe to our newsletter on our website to receive regular updates about our programs, events, and the impact of your support."
+    },
+    "15": {
+      "question": "What long-term goals does your organization have in improving mental health for survivors of sexual aggression?",
+      "answer": "Our long-term goals include expanding our reach, increasing access to mental health services, and advocating for policies that protect survivors' rights and well-being. We are committed to making lasting positive changes in the lives of survivors worldwide."
+    }
+  },
+  "request-therapy": {
+    "title": "Request paid therapy",
+    "description": "Every time you invest in a therapy session, you will be contributing to a fund that will provide ongoing psychological support to women and girls.",
+    "name": "Name",
+    "last-name": "Last name",
+    "email": "Email Address",
+    "options": {
+      "therapy": "Paid personal therapy"
+    },
+    "send-btn": "Send"
+  },
+  "documents": {
+    "title": "Legal documents",
+    "last-update": "Last update: {date}",
+    "go-back-link": "Go back to documents"
+  },
+  "thank-you": {
+    "title": "Thank you <purple>{name}</purple>!",
+    "content": "Your generosity fills us with inspiration. Together, we are changing lives through psychological therapy as a healing tool.",
+    "back-cta": "Go back to projects",
+    "share-cta": "Download certificate"
+  },
+  "certificate": {
+    "subtitle": "Give recognition to:",
+    "body": "In gratitude for having joined the cause and helping us save lives through psychological therapy.",
+    "details": "For your donation of ${amount} to the campaign {campaign}, on {date}"
+  }
+}

@@ -1,0 +1,235 @@
+@import "~/styles/functions.scss";
+@import "~/styles/mixins.scss";
+@import "~/styles/variables.scss";
+
+.ambassadors {
+  @include section;
+  display: grid;
+  grid-template-columns: minmax(30%, auto) 1fr;
+  padding-bottom: spacing(20);
+
+  &__image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+
+    img:not(.paint) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .paint {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: auto;
+      width: 40%;
+    }
+  }
+
+  .paint {
+    top: unset;
+    bottom: 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    gap: spacing(4);
+    border: solid 2px $color-grey-100;
+    border-left: 0px;
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+    padding: spacing(6) spacing(8) spacing(4);
+
+    & > div > svg {
+      fill: $color-purple;
+    }
+  }
+
+  &__role {
+    color: $color-purple;
+  }
+
+  &__role,
+  &__name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+    color: $color-purple;
+    margin-bottom: spacing(2);
+  }
+
+  &__quote-icon {
+    width: 64px;
+    height: 48px;
+  }
+
+  &__quote {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    flex-grow: 1;
+    font-family: "Inter", sans-serif;
+  }
+
+  &__data {
+    display: flex;
+    flex-direction: column;
+    gap: spacing(1);
+  }
+
+  &__socials {
+    display: flex;
+    gap: spacing(1);
+
+    li {
+      width: spacing(3);
+      height: spacing(3);
+
+      svg {
+        fill: $color-grey-400;
+      }
+    }
+  }
+
+  &__button-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: spacing(1);
+    width: 100%;
+  }
+
+  &__dots {
+    display: flex;
+    gap: spacing(0.5);
+    position: absolute;
+    right: spacing(1);
+
+    .dot {
+      background-color: $color-purple-100;
+      height: spacing(1);
+      width: spacing(1);
+      border-radius: spacing(1);
+      cursor: pointer;
+
+      &--active {
+        background-color: $color-purple-800;
+      }
+    }
+  }
+
+  &__know-more {
+    position: absolute;
+    top: calc(100% + spacing(2));
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: spacing(2);
+    color: $color-purple;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &__arrow {
+      width: 24px;
+      height: 24px;
+
+      path {
+        stroke: $color-purple;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  .ambassadors {
+    grid-template-columns: minmax(auto, 40%) 1fr;
+    @include section-lg;
+
+    &__content {
+      padding: spacing(4);
+    }
+
+    &__quote {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .ambassadors {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+
+    @include section-md;
+
+    &__image {
+      height: 100%;
+      min-height: 400px;
+      overflow: hidden;
+      border-radius: 10px 10px 0 0;
+    }
+
+    &__quote-icon {
+      width: 39px;
+      height: 30px;
+    }
+
+    &__role,
+    &__name {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+
+    &__content {
+      border: solid 2px $color-grey-100;
+      border-top: 0px;
+      border-radius: 0 0 10px 10px;
+      margin-top: -1px;
+      padding: spacing(5) spacing(2) spacing(3);
+    }
+
+    &__dots {
+      .dot {
+        height: spacing(1.5);
+        width: spacing(1.5);
+        border-radius: spacing(1.5);
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .ambassadors {
+    @include section-sm;
+    padding-bottom: spacing(8);
+
+    &__bio,
+    &__subtitle {
+      font-size: 14px;
+    }
+  }
+}

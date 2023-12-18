@@ -1,0 +1,245 @@
+@import "~/styles/functions.scss";
+@import "~/styles/mixins.scss";
+@import "~/styles/variables.scss";
+
+.button {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  white-space: nowrap;
+  padding: spacing(2) spacing(3);
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+
+  &__loader {
+    display: inline-block;
+    position: relative;
+    width: spacing(1);
+    height: spacing(1);
+
+    div {
+      position: absolute;
+      border: 3px solid $color-white;
+      opacity: 1;
+      border-radius: 50%;
+      animation: loading 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+    div:nth-child(2) {
+      animation-delay: -0.5s;
+    }
+  }
+
+  &__primary {
+    color: $color-white;
+
+    &--purple {
+      background-color: $color-purple;
+
+      &:hover {
+        background-color: $color-purple-800;
+      }
+
+      &-disabled {
+        background-color: $color-purple-300;
+        pointer-events: none;
+      }
+    }
+
+    &--orange {
+      background-color: $color-orange;
+
+      &:hover {
+        background-color: $color-orange-800;
+      }
+
+      &-disabled {
+        background-color: $color-orange-300;
+        pointer-events: none;
+      }
+    }
+
+    &--white {
+      background-color: $color-white;
+      color: $color-purple;
+
+      &:hover {
+        background-color: $color-purple-100;
+        color: $color-purple-800;
+      }
+
+      &-disabled {
+        color: $color-grey-400;
+        background-color: $color-grey-100;
+        pointer-events: none;
+      }
+    }
+  }
+
+  &__secondary {
+    background: transparent;
+
+    &--purple {
+      border: solid 2px $color-purple;
+      color: $color-purple;
+
+      &:hover {
+        border-color: $color-purple-800;
+        color: $color-purple-800;
+      }
+
+      &-disabled {
+        border-color: $color-purple-300;
+        color: $color-purple-300;
+        pointer-events: none;
+      }
+    }
+
+    &--orange {
+      border: solid 2px $color-orange;
+      color: $color-orange;
+
+      &:hover {
+        border-color: $color-orange-800;
+        color: $color-orange-800;
+      }
+
+      &-disabled {
+        border-color: $color-orange-300;
+        color: $color-orange-300;
+        pointer-events: none;
+      }
+    }
+
+    &--white {
+      border: solid 2px $color-white;
+      color: $color-white;
+
+      &:hover {
+        border-color: $color-purple-200;
+        color: $color-purple-200;
+      }
+
+      &-disabled {
+        border-color: $color-grey-400;
+        color: $color-grey-400;
+        pointer-events: none;
+      }
+    }
+  }
+
+  &__tertiary {
+    border: solid 2px transparent;
+    background-color: transparent;
+
+    &--purple {
+      color: $color-purple;
+
+      &:hover {
+        color: $color-purple-800;
+      }
+
+      &-disabled {
+        color: $color-purple-300;
+        pointer-events: none;
+      }
+    }
+
+    &--orange {
+      color: $color-orange;
+
+      &:hover {
+        color: $color-orange-800;
+      }
+
+      &-disabled {
+        color: $color-orange-300;
+        pointer-events: none;
+      }
+    }
+
+    &--white {
+      color: $color-white;
+
+      &:hover {
+        color: $color-purple-100;
+      }
+
+      &-disabled {
+        color: $color-grey-400;
+        pointer-events: none;
+      }
+    }
+  }
+
+  &:hover {
+    @include card;
+  }
+
+  &--standard {
+    max-height: spacing(8);
+  }
+
+  &--small {
+    height: fit-content;
+    padding: spacing(1.5);
+  }
+
+  &--fullwidth {
+    justify-content: center;
+    width: 100%;
+  }
+
+  &--loading {
+    &.button--purple-disabled {
+      background-color: $color-purple;
+      pointer-events: none;
+    }
+
+    &.button--orange-disabled {
+      background-color: $color-orange;
+    }
+
+    &.button--white-disabled {
+      background-color: $color-white;
+    }
+  }
+
+  &--success {
+    background-color: $color-green;
+    color: $color-white;
+    pointer-events: none;
+  }
+}
+
+@keyframes loading {
+  0% {
+    top: spacing(0.5);
+    left: spacing(0.5);
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  4.9% {
+    top: spacing(0.5);
+    left: spacing(0.5);
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  5% {
+    top: spacing(0.5);
+    left: spacing(0.5);
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: spacing(-1.5);
+    left: spacing(-1.5);
+    width: spacing(4);
+    height: spacing(4);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,111 @@
+@import "~/styles/functions.scss";
+@import "~/styles/mixins.scss";
+@import "~/styles/variables.scss";
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 0;
+  padding-top: spacing(4);
+
+  &__divider {
+    border: solid 1px $color-grey-100;
+    width: calc(100% - spacing(16));
+    margin: 0 auto;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: spacing(12);
+    padding: spacing(3) spacing(8);
+    max-width: $section-max-width;
+
+    a {
+      display: flex;
+      justify-content: center;
+    }
+
+    & > a {
+      width: 180px;
+    }
+  }
+
+  &__rights {
+    display: flex;
+    align-items: center;
+    gap: spacing(2);
+    font-size: 16px;
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    align-items: center;
+    gap: spacing(2);
+  }
+
+  &__disclaimer {
+    width: 100%;
+    color: $color-grey-400;
+    background-color: $color-grey-100;
+    padding: spacing(1) spacing(8);
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    a {
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: underline;
+      color: $color-purple;
+
+      &:visited {
+        color: $color-purple;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .footer {
+    padding-top: spacing(2);
+
+    &__divider {
+      width: calc(100% - spacing(8));
+    }
+
+    &__content {
+      flex-direction: column;
+      align-items: center;
+      gap: spacing(2);
+      height: fit-content;
+      padding: spacing(3) spacing(4);
+
+      a {
+        height: spacing(6);
+      }
+    }
+
+    &__rights {
+      flex-direction: column;
+      font-size: 14px;
+      gap: 0;
+    }
+
+    &__disclaimer {
+      padding: spacing(3);
+      padding-bottom: spacing(12);
+    }
+  }
+}

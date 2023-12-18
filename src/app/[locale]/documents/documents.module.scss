@@ -1,0 +1,114 @@
+@import "~/styles/functions.scss";
+@import "~/styles/mixins.scss";
+@import "~/styles/variables.scss";
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 212px;
+  width: 100%;
+}
+
+.documents {
+  @include section;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: spacing(8);
+  padding-bottom: 0;
+
+  &__content {
+    max-width: 300px;
+  }
+
+  &__title {
+    flex-shrink: 0;
+    font-size: 49px;
+    margin-bottom: spacing(2);
+  }
+
+  &__update {
+    font-size: 16px;
+    color: $color-orange;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .link {
+      display: flex;
+      flex-direction: column;
+
+      &__main {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: spacing(3);
+        padding: spacing(3) 0;
+        cursor: pointer;
+
+        svg {
+          stroke: $color-purple;
+
+          &:hover {
+            stroke: $color-purple-600;
+          }
+        }
+      }
+
+      &__name {
+        font-size: 20px;
+        font-weight: 700;
+        color: $color-black;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  .documents {
+    @include section-lg;
+    padding-bottom: 0;
+
+    &__title {
+      max-width: 240px;
+      font-size: 42px;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .documents {
+    @include section-md;
+    flex-direction: column;
+    gap: spacing(4);
+    padding-bottom: 0;
+
+    &__title {
+      font-size: 32px;
+      max-width: unset;
+    }
+
+    &__list {
+      &__name {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .documents {
+    @include section-sm;
+    padding-bottom: 0;
+
+    &__title {
+      font-size: 28px;
+    }
+  }
+}

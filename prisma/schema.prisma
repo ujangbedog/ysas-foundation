@@ -1,0 +1,72 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model ambassador {
+  id        Int     @id @default(autoincrement())
+  name      String
+  picture   String
+  linkedin  String?
+  instagram String?
+  x         String?
+
+  // English Fields
+  role_en  String
+  quote_en String @db.VarChar(600)
+
+  // Spanish Fields
+  role_es  String
+  quote_es String @db.VarChar(600)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([name])
+}
+
+model project {
+  id        Int        @id @default(autoincrement())
+  is_test   Boolean
+  image     String
+  location  String
+  goal      Float
+  donations donation[]
+
+  // English Fields
+  stripe_price_id_en String
+  title_en           String
+  details_en         String
+  description_en     String @db.VarChar(2048)
+
+  // Spanish Fields
+  stripe_price_id_es String
+  title_es           String
+  details_es         String
+  description_es     String @db.VarChar(2048)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([id])
+}
+
+model donation {
+  id        Int      @id @default(autoincrement())
+  project   project  @relation(fields: [projectId], references: [id])
+  projectId Int
+  email     String
+  amount    Float
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([projectId])
+}

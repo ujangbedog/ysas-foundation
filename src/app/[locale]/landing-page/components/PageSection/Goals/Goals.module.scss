@@ -1,0 +1,88 @@
+@import "~/styles/functions.scss";
+@import "~/styles/mixins.scss";
+@import "~/styles/variables.scss";
+
+.goals {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: spacing(8);
+
+  @include section-spaced;
+
+  &__title {
+    flex-shrink: 0;
+    color: $color-purple;
+    max-width: 310px;
+  }
+
+  &__list {
+    display: grid;
+    gap: spacing(5);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .goal {
+    &__icon {
+      width: 48px;
+      height: 40px;
+    }
+
+    &__data {
+      display: flex;
+      align-items: center;
+      gap: spacing(1);
+      margin-bottom: spacing(1);
+
+      svg {
+        fill: $color-purple;
+      }
+    }
+
+    &__number {
+      font-size: 39px;
+      line-height: 46px;
+      font-weight: 700;
+      font-family: "Inter", sans-serif;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  .goals {
+    flex-direction: column;
+
+    @include section-lg;
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .goals {
+    @include section-md;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .goals {
+    @include section-sm;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__list {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+    }
+  }
+}
