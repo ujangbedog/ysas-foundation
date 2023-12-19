@@ -5,12 +5,14 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import { api } from "~/src/trpc/react";
+
 import {
   Footer,
   Main,
   NavigationBar,
-  PageSection,
   Project,
+  OurProjects,
+  PageSection
 } from "../components";
 
 import styles from "./projects.module.scss";
@@ -40,6 +42,11 @@ export default function ProjectsPage() {
           />
         </div>
       </PageSection>
+
+      <PageSection>
+          <OurProjects />
+      </PageSection>
+      
       <PageSection className={styles.content} isLastSection>
         {projects?.map((project, index) => (
           <Fragment key={project.id}>

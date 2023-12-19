@@ -10,3 +10,4 @@ export * from "./Main";
 export * from "./Modal";
 export * from "./NavigationBar";
 export * from "./PageSection";
+export * from "./OurProjects";

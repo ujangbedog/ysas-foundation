@@ -35,6 +35,12 @@
     "content3": "3. Memperluas ruang lingkup pendidikan sebagai implementasi dari sabda nabi 'Belajar dimulai dari dalam buaian ibu sampai liang lahat'.",
     "learn-more": "Learn about our projects"
   },
+  "ourProjects": {
+    "title": "",
+    "description": "MDTA Hidayatul Mutaqienes",
+    "content": "Madrasah Diniyah Takmiliyah Awaliyah Hidayatul Mutaqien adalah kegiatan mengaji yang diakui di kemenag.",
+    "learn-more": "Learn about our projects"
+  },
   "about-us": {
     "title": "About us",
     "description": "Yayasan Sanusiah Al-Mansuriah Sumedang didirikan dengan tujuan untuk menyebarkan ajaran agama Islam dan membantu masyarakat dalam hal pendidikan dan kesejahteraan sosial. Yayasan ini melakukan kegiatan kegiatan sosial seperti menyediakan sarana dan prasarana pendidikan untuk santri dll.",
@@ -167,9 +173,9 @@
     "disclaimer-title": "<b>Paramar Foundation</b> is safe:",
     "disclaimer-content": "All your donations are being safeguarded by strict security measures and designed procedures, ensuring that your generosity securely reaches those who need it the most.",
     "page": {
-      "title": "Join us",
-      "description": "Get to know our donation projects",
-      "content": "Explore here all our internal projects and collaborations with other foundations, designed to positively transform the lives of women and girls through psychological therapy."
+      "title": "Our Project",
+      "description": "Get to know our projects",
+      "content": "This project is designed to achieve the main goals of the project by integrating a series of interrelated activities. The project involves careful coordination and management to ensure that each activity supports the overall achievement of goals."
     }
   },
   "faqs": {
