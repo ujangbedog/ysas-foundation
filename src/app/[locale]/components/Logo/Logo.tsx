@@ -43,7 +43,7 @@ export const Logo = ({
           xmlnsXlink="http://www.w3.org/1999/xlink"
           width={1446}
           height={1448}
-          viewBox="0 0 1084.5 1086"
+          viewBox="0 0 1086 1086"
         >
           <defs>
             <filter id="a" width="100%" height="100%" x="0%" y="0%">
