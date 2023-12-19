@@ -88,7 +88,8 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
 
   const handleProjectsCtaClick = () => {
     setMenuOpen(false);
-    router.push("/projects");
+    // router.push("/projects");
+    window.open("https://sociabuzz.com/hidayatulmutaqqin/tribe", '_blank');
   };
 
   const handleTherapyCtaClick = () => {
