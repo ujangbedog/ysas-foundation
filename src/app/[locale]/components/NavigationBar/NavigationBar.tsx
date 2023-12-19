@@ -94,7 +94,7 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
 
   const handleTherapyCtaClick = () => {
     setMenuOpen(false);
-    router.push("/request-therapy");
+    router.push("/projects");
   };
 
   const renderMenu = (modifier = "", isResponsive = false) => {

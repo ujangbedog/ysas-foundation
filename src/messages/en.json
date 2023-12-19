@@ -39,7 +39,25 @@
     "title": "",
     "description": "MDTA Hidayatul Mutaqienes",
     "content": "Madrasah Diniyah Takmiliyah Awaliyah Hidayatul Mutaqien adalah kegiatan mengaji yang diakui di kemenag.",
-    "learn-more": "Learn about our projects"
+    "learn-more": "Learn more"
+  },
+  "ourProjects2": {
+    "title": "",
+    "description": "Goodness Green Farm",
+    "content": "GGF adalah kegiatan pertanian dan peternakan yang mendukung program Yayasan Sanusiah Al-Mansyuriah Sumedang.",
+    "learn-more": "Learn more"
+  },
+  "ourProjects3": {
+    "title": "",
+    "description": "Integra Madani",
+    "content": "Integra madani adalah kegiatan bimbingan belajar berbasis IT.",
+    "learn-more": "Learn more"
+  },
+  "ourProjects4": {
+    "title": "",
+    "description": "Service Centre",
+    "content": "Servise Centre adalah lab untuk mendukung kegiatan integra madani dalam hal praktik IT.",
+    "learn-more": "Learn more"
   },
   "about-us": {
     "title": "About us",
