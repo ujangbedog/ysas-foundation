@@ -19,7 +19,7 @@ export const LanguageSelection = ({
   const [isDisplayingOptions, setDisplayingOptions] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
-  const locales = ["es", "en"] as const;
+  const locales = ["id", "en"] as const;
 
   const handleSelect = (locale: string) => {
     setSelectedLocale(locale);

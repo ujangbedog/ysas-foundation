@@ -15,9 +15,9 @@ export const Footer = () => {
     <footer className={styles.footer}>
       <article className={styles.footer__content}>
         <div className={styles.footer__rights}>
-          <span>@2023 all rights reserved</span>
+          <span>&copy; 2023 all rights reserved.</span>
           <span>
-            <b>YSAS Foundation</b>
+            <b>YSAS Foundation.</b>
           </span>
         </div>
         <ul className={styles.footer__socials}>

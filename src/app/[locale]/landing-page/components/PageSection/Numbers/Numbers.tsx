@@ -28,12 +28,6 @@ export const Numbers = () => {
           </li>
         ))}
       </ul>
-      <Button
-        color={eButtonColor.orange}
-        onClick={() => router.push("/projects")}
-      >
-        {t("cta")}
-      </Button>
       <Image
         className={styles["numbers__paint-top"]}
         src="/paints/numbers-top.png"

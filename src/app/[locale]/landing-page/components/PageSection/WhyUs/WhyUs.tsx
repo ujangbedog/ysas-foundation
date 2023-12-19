@@ -18,6 +18,11 @@ export const WhyUs = () => {
     "/paints/cold.png",
   ] as const;
 
+  const Donasi = () => {
+    // router.push("/projects");
+    window.open("https://sociabuzz.com/hidayatulmutaqqin/tribe", '_blank');
+  };
+
   return (
     <article className={styles["why-us"]}>
       <div className={styles["why-us__overlay"]}></div>
@@ -45,7 +50,7 @@ export const WhyUs = () => {
       </ul>
       <Button
         color={eButtonColor.purple}
-        onClick={() => router.push("/projects")}
+        onClick={Donasi}
       >
         {t("cta")}
       </Button>

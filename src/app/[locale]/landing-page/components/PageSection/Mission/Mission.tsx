@@ -5,8 +5,6 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next-intl/client";
 
-import { Button, eButtonColor } from "../../../../components/Button";
-
 import styles from "./Mission.module.scss";
 
 export const Mission = () => {
@@ -45,12 +43,6 @@ export const Mission = () => {
         <p className={styles.mission__body}>{t("content1")}</p>
         <p className={styles.mission__body}>{t("content2")}</p>
         <p className={styles.mission__body}>{t("content3")}</p>
-        <Button
-          color={eButtonColor.purple}
-          onClick={() => router.push("/projects")}
-        >
-          {t("learn-more")}
-        </Button>
       </div>
     </article>
   );

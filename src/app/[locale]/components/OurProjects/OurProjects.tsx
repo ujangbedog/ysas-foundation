@@ -31,12 +31,6 @@ export const OurProjects = () => {
         <p className={styles.ourProjects__subtitle}>{t("title")}</p>
         <h2 className={styles.ourProjects__title}>{t("description")}</h2>
         <p className={styles.ourProjects__body}>{t("content")}</p>
-        <Button
-          color={eButtonColor.purple}
-          onClick={() => router.push("/projects")}
-        >
-          {t("learn-more")}
-        </Button>
       </div>
 
       {/* Project 2 */}
@@ -52,12 +46,6 @@ export const OurProjects = () => {
         <p className={styles.ourProjects__subtitle}>{y("title")}</p>
         <h2 className={styles.ourProjects__title}>{y("description")}</h2>
         <p className={styles.ourProjects__body}>{y("content")}</p>
-        <Button
-          color={eButtonColor.purple}
-          onClick={() => router.push("/projects")}
-        >
-          {t("learn-more")}
-        </Button>
       </div>
 
       {/* Project 3 */}
@@ -73,12 +61,6 @@ export const OurProjects = () => {
         <p className={styles.ourProjects__subtitle}>{u("title")}</p>
         <h2 className={styles.ourProjects__title}>{u("description")}</h2>
         <p className={styles.ourProjects__body}>{u("content")}</p>
-        <Button
-          color={eButtonColor.purple}
-          onClick={() => router.push("/projects")}
-        >
-          {t("learn-more")}
-        </Button>
       </div>
 
       {/* Project 4 */}
@@ -94,12 +76,6 @@ export const OurProjects = () => {
         <p className={styles.ourProjects__subtitle}>{i("title")}</p>
         <h2 className={styles.ourProjects__title}>{i("description")}</h2>
         <p className={styles.ourProjects__body}>{i("content")}</p>
-        <Button
-          color={eButtonColor.purple}
-          onClick={() => router.push("/projects")}
-        >
-          {t("learn-more")}
-        </Button>
       </div>
 
       {/* End Project */}

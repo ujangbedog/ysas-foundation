@@ -10,71 +10,71 @@
     "success-btn": "✅ Your request have been sent successfully."
   },
   "nav": {
-    "home": "Home",
-    "ambassadors": "About Us",
-    "contact": "Contact Us",
-    "faqs": "FAQ’s",
-    "projects-cta": "Donate here",
-    "request-therapy-cta": "Our Project"
+    "home": "Beranda",
+    "ambassadors": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "faqs": "SSD’s",
+    "projects-cta": "Donasi",
+    "request-therapy-cta": "Program Kami"
   },
   "footer": {
     "rights": "@2023 all rights reserved",
-    "tax-disclaimer": "Yayasan Sanusiah Al-Mansyuriah Sumedang is an organization registered under the Decision of the Minister of Law and Human Rights of the Republic of Indonesia with the number: AHU-0027215.AH.01.04.Year 2021. <docs>See legal document.</docs>"
+    "tax-disclaimer": "Yayasan Sanusiah Al-Mansyuriah Sumedang adalah organisasi yang terdaftar di Keputusan Mentri Hukum dan Hak Asasi Manusia Republik Indonesia dengan nomor: AHU-0027215.AH.01.04.Tahun 2021  <docs>Lihat dokumen hukum.</docs>"
   },
   "hero": {
     "source": "",
-    "quote": "World Civilization Lantern",
-    "cta": "Join with us!",
+    "quote": "Lentera Peradaban Dunia",
+    "cta": "Gabung bersama kami",
     "know-more": "Read more"
   },
   "mission": {
-    "title": "Our Vision and Mission",
-    "description": "The birth of human resources that are religious, scientific, entrepreneurial-spirited, internationally-minded, environmentally conscious, and become beacons of world civilization.",
-    "content1": "1. Creating a cool and liberating atmosphere in Islamic boarding school education by providing space for creativity, criticism, entrepreneurship, and international insight.",
-    "content2": "2. Implementing an integral curriculum that combines elements of moral and spiritual reinforcement, classical Islamic scholarly traditions, and fundamental competencies of modern international science through a boarding school system. This is achieved through the application of systematic, planned, and controlled educational management.",
-    "content3": "3. Expanding the scope of education as an implementation of the saying of the Prophet, 'Learning begins from the cradle and continues until the grave.'",
-    "learn-more": "Kenali proyek-proyek kami."
+    "title": "Visi dan Misi kami",
+    "description": "Lahirnya sumber daya manusia yang religious, saintis, berjiwa entrepreneur, berwawasan international, cinta lingkungan dan menjadi lentera Peradaban dunia",
+    "content1": "1. Menciptakan suasana pendidikan kepesantrenan yang sejuk dan membebaskan dengan memberikan ruang kreativitas, kritisisme, entrepreneurship, dan berwawasan internasional",
+    "content2": "2. Mengimplementasi kurikulum integral antara muatan peneguhan moral spiritual, tradisi keilmuan Islam klasik, dan kompetensi dasar-dasar saintis modern internasional melalui system asrama (boarding) melalui penerapan mangemen pendidikan sistemik, terencana dan terkontrol.",
+    "content3": "3. Memperluas ruang lingkup pendidikan sebagai implementasi dari sabda nabi 'Belajar dimulai dari dalam buaian ibu sampai liang lahat'.",
+    "learn-more": "Learn about our projects"
   },
   "ourProjects": {
     "title": "",
     "description": "MDTA Hidayatul Mutaqienes",
-    "content": "Madrasah Diniyah Takmiliyah Awaliyah Hidayatul Mutaqien is a recognized Quranic study program by the Ministry of Religious Affairs.",
+    "content": "Madrasah Diniyah Takmiliyah Awaliyah Hidayatul Mutaqien adalah kegiatan mengaji yang diakui di kemenag.",
     "learn-more": "Learn more"
   },
   "ourProjects2": {
     "title": "",
     "description": "Goodness Green Farm",
-    "content": "GGF is an agricultural and livestock activity that supports the programs of the Sanusiah Al-Mansyuriah Foundation in Sumedang.",
+    "content": "GGF adalah kegiatan pertanian dan peternakan yang mendukung program Yayasan Sanusiah Al-Mansyuriah Sumedang.",
     "learn-more": "Learn more"
   },
   "ourProjects3": {
     "title": "",
     "description": "Integra Madani",
-    "content": "Integra Madani is an IT-based tutoring activity.",
+    "content": "Integra madani adalah kegiatan bimbingan belajar berbasis IT.",
     "learn-more": "Learn more"
   },
   "ourProjects4": {
     "title": "",
     "description": "Service Centre",
-    "content": "Service Centre is a lab that supports Integra Madani activities in terms of IT practices.",
+    "content": "Servise Centre adalah lab untuk mendukung kegiatan integra madani dalam hal praktik IT.",
     "learn-more": "Learn more"
   },
   "about-us": {
-    "title": "About us",
-    "description": "The Sanusiah Al-Mansuriah Foundation in Sumedang was established with the aim of spreading the teachings of Islam and assisting the community in terms of education and social welfare. The foundation engages in social activities such as providing facilities and infrastructure for students, and more.",
+    "title": "Sekilas Tentang Kami",
+    "description": "Yayasan Sanusiah Al-Mansuriah Sumedang didirikan dengan tujuan untuk menyebarkan ajaran agama Islam dan membantu masyarakat dalam hal pendidikan dan kesejahteraan sosial. Yayasan ini melakukan kegiatan kegiatan sosial seperti menyediakan sarana dan prasarana pendidikan untuk santri dll.",
     "what-we-do": {
-      "title": "What do we do?",
-      "item-1": "Creating a unique, serene, and liberating educational atmosphere in the Islamic boarding school setting for students. We are committed to providing space for creativity, critical thinking, entrepreneurship, and international perspectives, allowing each student to develop their potential holistically.",
-      "item-2": "We are committed to expanding the scope of education. We believe that the learning process should involve all stages of life; therefore, we offer a comprehensive learning experience from infancy to adulthood, ensuring the holistic development of students in line with the demands of the times."
+      "title": "Apa yang kami lakukan?",
+      "item-1": "Menciptakan suasana pendidikan kepesantrenan yang unik, sejuk, dan membebaskan bagi para siswa. Kami berkomitmen untuk memberikan ruang kreativitas, kritisisme, entrepreneurship, dan wawasan internasional agar setiap siswa dapat mengembangkan potensi mereka secara holistik",
+      "item-2": "Kami berkomitmen untuk memperluas ruang lingkup pendidikan. Kami meyakini bahwa proses pembelajaran harus melibatkan semua tahap kehidupan, dan oleh karena itu, kami menyajikan pengalaman belajar yang komprehensif dari masa bayi hingga dewasa, memastikan perkembangan holistik siswa sesuai dengan tuntutan zaman."
     },
     "how-we-help": {
-      "title": "How do we help?",
-      "item-1": "We provide support by creating an enriching and liberating educational environment within our Islamic boarding school. Our commitment lies in providing space for creativity, critical thinking, entrepreneurship, and international perspectives, empowering every student to fully explore their potential.",
-      "item-2": "We offer a comprehensive educational journey from infancy to adulthood, meeting the holistic development of students in line with the demands of the contemporary world. Our aim is to shape individuals who are empowered, not only academically but also equipped with the moral and practical skills necessary to thrive in a diverse and interconnected global society."
+      "title": "Bagaimana kami membantu?",
+      "item-1": "Kami memberikan dukungan dengan membentuk lingkungan pendidikan yang memperkaya dan membebaskan di dalam pesantren Islam kami. Komitmen kami terletak pada penyediaan ruang untuk kreativitas, berpikir kritis, kewirausahaan, dan pandangan internasional, memberdayakan setiap siswa untuk menggali potensi mereka sepenuhnya.",
+      "item-2": "Kami menyajikan perjalanan pendidikan yang menyeluruh mulai dari bayi hingga dewasa, memenuhi perkembangan holistik siswa sesuai dengan tuntutan dunia kontemporer untuk membentuk individu yang berdaya, tidak hanya secara akademis tetapi juga dilengkapi dengan keterampilan moral dan praktis yang diperlukan untuk berkembang di masyarakat global yang beragam dan terkoneksi."
     },
     "who-we-are": {
-      "title": "Who we are?",
-      "item-1": "The Sanusiah Al-Mansyuriah Foundation in Sumedang was established by a founder named KH. Ita Zaenal Mutaqien in 2021. The foundation is located in Dusun Pangjeleran, Rt.03 Rw. 04, Desa Cigintung, Kecamatan Cisitu, Kabupaten Sumedang, West Java, Indonesia. KH. Ita Zaenal Mutaqien is a respected religious scholar and figure in Sumedang and its surrounding communities."
+      "title": "Siapa kami?",
+      "item-1": "Yayasan Sanusiah Al-Mansyuriah Sumedang didirikan oleh seorang pendiri bernama KH. Ita Zaenal Mutaqien pada tahun 2021. Yayasan ini berdiri di Dusun Pangjeleran Rt.03 Rw. 04 Desa Cigintung Kecamatan Cisitu Kabupaten Sumedang, Jawa Barat, Indonesia. KH. Ita Zaenal Mutaqien adalah seorang ulama dan tokoh agama yang sangat dihormati oleh masyarakat Sumedang dan sekitarnya."
     }
   },
   "ambassadors": {
@@ -86,69 +86,69 @@
     "know-more": "Know them all"
   },
   "numbers": {
-    "title": "The Issue in Numbers",
+    "title": "MASALAH DALAM ANGKA",
     "1": {
       "number": "385+",
-      "type": "Students",
-      "description": "The difficulty in developing potential and innovation arises due to a lack of access to resources, a curriculum that does not sufficiently support creativity, and a lack of stimulation for innovative thinking."
+      "type": "Peserta didik",
+      "description": "Kesulitan mengembangkan potensi dan inovasi karena kurangnya akses sumber daya, kurikulum yang kurang mendukung kreativitas, dan kurangnya stimulasi untuk berpikir inovatif."
     },
     "2": {
       "number": "70%",
-      "type": "Students",
-      "description": "Lack of support and emotional intelligence."
+      "type": "Peserta didik",
+      "description": "tidak memiliki pendukung dan kecerdasan emosional"
     },
     "3": {
       "number": "190",
-      "type": "Students",
-      "description": "Feeling constrained or unfulfilled in the educational environment may lead individuals to seek escape by exploring less constructive or even harmful paths."
+      "type": "Peserta didik",
+      "description": "merasa terhimpit atau tidak terpenuhi dalam lingkungan pendidikan mungkin cenderung mencari pelarian dengan menjelajahi jalur yang kurang konstruktif atau bahkan merugikan."
     },
     "cta": "Help us prevent it.",
-    "source": "Survey of the Sanusiah Al-Mansyuriah Foundation in Sumedang, 2023."
+    "source": "Survey Yayasan Sanusiah Al-Mansyuriah Sumedang, 2023"
   },
   "goals": {
-    "title": "Our goals for 2024",
+    "title": "Tujuan Kami untuk Tahun 2024",
     "1": {
-      "number": "380+",
-      "description": "We hope to provide Improving Resource Access."
+      "number": "385+",
+      "description": "Kami berharap dapat meningkatkan Akses Terhadap Sumber Daya."
     },
     "2": {
       "number": "1M",
-      "description": "One million free hours of Counseling and Supervision."
+      "description": "Satu Juta Jam Konseling dan Supervisi Gratis."
     },
     "3": {
       "number": "25M",
-      "description": "25 million dollars to Educational Environment Strengthening."
+      "description": "25 Juta Dolar untuk Penguatan Lingkungan Pendidikan."
     },
     "4": {
       "number": "80%",
-      "description": "of Curriculum Reform."
+      "description": "dari Reformasi Kurikulum."
     },
     "5": {
       "number": "+1K",
-      "description": "Over a thousand for Life Skills Training."
+      "description": "Lebih dari seribu untuk Pelatihan Keterampilan Hidup."
     },
     "6": {
       "number": "+5K",
-      "description": "Over 5,000 to learn Emotional Support Development."
+      "description": "Lebih dari 5.000 untuk mempelajari Pengembangan Dukungan Emosional."
     }
   },
   "why-us": {
-    "title": "Why us?",
-    "subtitle": "Get to know our projects",
-    "why-donate": "Why donate to us?",
+    "title": "Mengapa kami?",
+    "subtitle": "Ketahui Proyek-proyek Kami",
+    "why-donate": "Mengapa Berdonasi kepada Kami?",
     "1": {
-      "title": "The more you give, the more you save",
-      "description": "Donations to nonprofit foundations are the best way to reduce your tax burden."
+      "title": "Semakin banyak yang Anda berikan, semakin banyak yang Anda selamatkan.",
+      "description": "Donasi kepada yayasan nirlaba adalah cara terbaik untuk mengurangi beban pajak Anda."
     },
     "2": {
-      "title": "40 years of experience",
-      "description": "Managing scalable projects with capital applied to generate social impact."
+      "title": "40 tahun pengalaman",
+      "description": "Mengelola proyek-proyek yang dapat berkembang dengan penerapan modal untuk menghasilkan dampak sosial."
     },
     "3": {
-      "title": "Transparency",
-      "description": "Our accounts are public, transparent, and audited, within the first quarter of each year."
+      "title": "Transparansi",
+      "description": "Akun kami bersifat publik, transparan, dan di-audit, dalam kuartal pertama setiap tahun."
     },
-    "cta": "Donate now"
+    "cta": "Donasikan Sekarang"
   },
   "professionals": {
     "title": "Our professionals",
@@ -191,9 +191,9 @@
     "disclaimer-title": "<b>Paramar Foundation</b> is safe:",
     "disclaimer-content": "All your donations are being safeguarded by strict security measures and designed procedures, ensuring that your generosity securely reaches those who need it the most.",
     "page": {
-      "title": "Our Project",
-      "description": "Get to know our projects",
-      "content": "This project is designed to achieve the main goals of the project by integrating a series of interrelated activities. The project involves careful coordination and management to ensure that each activity supports the overall achievement of goals."
+      "title": "Program Kami",
+      "description": "Kenali Program-program Kami",
+      "content": "Program-program ini dirancang untuk mencapai tujuan utama dengan mengintegrasikan serangkaian aktivitas yang saling terkait. Program-program ini melibatkan koordinasi dan manajemen yang cermat untuk memastikan bahwa setiap aktivitas mendukung pencapaian tujuan secara keseluruhan."
     }
   },
   "faqs": {

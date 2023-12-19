@@ -30,7 +30,7 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
 
   const menuItems = [
     { value: "home", link: "/" },
-    { value: "ambassadors", link: "/ambassadors" },
+    { value: "ambassadors", link: "/about" },
     { value: "contact", link: "/contact" },
     { value: "faqs", link: "/faqs" },
   ] as const;

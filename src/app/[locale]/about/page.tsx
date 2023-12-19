@@ -19,10 +19,10 @@ import {
   eIcons,
 } from "../components";
 
-import styles from "./ambassadors.module.scss";
+import styles from "./about.module.scss";
 import Link from "next/link";
 
-export default function Ambassadors() {
+export default function About() {
   const t = useTranslations("ambassadors");
   const locale = useLocale();
   const pathname = usePathname();
@@ -118,9 +118,6 @@ export default function Ambassadors() {
           </div>
         </header>
         <ul className={styles.ambassadors}>{renderAmbassadorCards()}</ul>
-      </PageSection>
-      <PageSection id="contact" bgDefaultColor="#1c1d20" isLastSection>
-        <Contact />
       </PageSection>
       <Footer />
     </Main>
