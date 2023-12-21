@@ -1,14 +1,4 @@
 {
-  "generic": {
-    "-": "",
-    "seconds": "seconds",
-    "minutes": "minutes",
-    "hours": "hours",
-    "days": "days",
-    "launch": "Our page will be available on",
-    "launch-date": "December 10th, 2023.",
-    "success-btn": "✅ Your request have been sent successfully."
-  },
   "nav": {
     "home": "Beranda",
     "ambassadors": "Tentang Kami",
@@ -107,14 +97,6 @@
       "item-1": "Yayasan Sanusiah Al-Mansyuriah Sumedang didirikan oleh seorang pendiri bernama KH. Ita Zaenal Mutaqien pada tahun 2021. Yayasan ini berdiri di Dusun Pangjeleran Rt.03 Rw. 04 Desa Cigintung Kecamatan Cisitu Kabupaten Sumedang, Jawa Barat, Indonesia. KH. Ita Zaenal Mutaqien adalah seorang ulama dan tokoh agama yang sangat dihormati oleh masyarakat Sumedang dan sekitarnya."
     }
   },
-  "ambassadors": {
-    "subtitle": "Our Ambassadors",
-    "title": "Get to know the people who support and are behind <purple>Paramar Foundation</purple>",
-    "content": "Our ambassadors are the soul and engine that drives our cause. They are passionate and committed people who work tirelessly to promote positive change in our world.",
-    "section-cta": "Contact us",
-
-    "know-more": "Know them all"
-  },
   "numbers": {
     "title": "MASALAH DALAM ANGKA",
     "1": {
@@ -179,17 +161,6 @@
       "description": "Akun kami bersifat publik, transparan, dan di-audit, dalam kuartal pertama setiap tahun."
     },
     "cta": "Donasikan Sekarang"
-  },
-  "professionals": {
-    "title": "Our professionals",
-    "profile-picture": "{name} profile picture",
-    "camila-gonzalez": {
-      "name": "Camila Gonzalez",
-      "expertise-1": "Childhood and Adolescence",
-      "expertise-2": "Gender-based Violence",
-      "expertise-3": "Family",
-      "description": "A prominent psychologist specialized in sexual violence therapy. With a solid academic background and extensive experience in the field, Camila provides therapeutic support to women who are victims of sexual violence in their recovery process. Her therapeutic approach is warm and empathetic, creating a safe space where survivors can share their experiences and emotions. She employs evidence-based therapeutic techniques, such as cognitive-behavioral therapy and exposure therapy, to address trauma and its long-term effects."
-    }
   },
   "contact-us": {
     "title": "Hubungi Kami",
@@ -284,31 +255,9 @@
       "answer": "Yayasan berdiri di Dusun Pangjeleran Rt.03 Rw. 04 Desa Cigintung Kecamatan Cisitu Kabupaten Sumedang, Jawa Barat, Indonesia."
     }
   },
-  "request-therapy": {
-    "title": "Request paid therapy",
-    "description": "Every time you invest in a therapy session, you will be contributing to a fund that will provide ongoing psychological support to women and girls.",
-    "name": "Name",
-    "last-name": "Last name",
-    "email": "Email Address",
-    "options": {
-      "therapy": "Paid personal therapy"
-    },
-    "send-btn": "Send"
-  },
   "documents": {
     "title": "Dokumen Hukum",
     "last-update": "Terakhir Diupdate: {date}",
     "go-back-link": "Kembali ke Dokumen"
-  },
-  "thank-you": {
-    "title": "Thank you <purple>{name}</purple>!",
-    "content": "Your generosity fills us with inspiration. Together, we are changing lives through psychological therapy as a healing tool.",
-    "back-cta": "Go back to projects",
-    "share-cta": "Download certificate"
-  },
-  "certificate": {
-    "subtitle": "Give recognition to:",
-    "body": "In gratitude for having joined the cause and helping us save lives through psychological therapy.",
-    "details": "For your donation of ${amount} to the campaign {campaign}, on {date}"
   }
 }
