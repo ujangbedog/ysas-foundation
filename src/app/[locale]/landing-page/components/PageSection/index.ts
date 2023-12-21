@@ -1,4 +1,5 @@
 export * from "./AboutUs";
+export * from "./AboutFull";
 export * from "./Ambassadors";
 export * from "./FAQs";
 export * from "./Goals";
@@ -8,3 +9,4 @@ export * from "./Numbers";
 export * from "./Projects";
 export * from "./Therapy";
 export * from "./WhyUs";
+export * from "./About";

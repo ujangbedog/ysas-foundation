@@ -35,8 +35,8 @@
   &__form {
     display: flex;
     flex-direction: column;
-    gap: spacing(4);
-    padding: 0 spacing(5);
+    gap: spacing(1);
+    padding: 0 spacing(4);
     color: #fff;
   }
 
@@ -83,6 +83,7 @@
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 16px;
+  width: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -109,6 +110,16 @@
     padding: spacing(22) spacing(8);
     grid-template-columns: minmax(auto, 40%) 1fr;
 
+    &__form {
+      padding: 0;
+    }
+
+    &__card {
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
     &__content__title {
       font-size: 42px;
     }
@@ -134,10 +145,20 @@
     padding-top: spacing(16);
     padding-bottom: spacing(20);
 
+    &__form {
+      padding: 0;
+    }
+    
+    &__card {
+      padding: 8;
+      margin-bottom: 8px;
+      width: 100%;
+    }
+
     &__content {
       &__title {
         font-size: 28px;
-        font-weight: 700;
+        font-weight: 700; 
         line-height: 34px;
       }
 
@@ -164,6 +185,14 @@
 
     padding-top: spacing(12);
     padding-bottom: spacing(16);
+
+    &__card {
+      padding: 6px;
+      margin-bottom: 6px;
+      width: 100%;
+      align-items: center;
+      margin-left: 5%;
+    }
 
     &__paint-top {
       max-width: 30%;

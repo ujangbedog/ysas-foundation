@@ -36,6 +36,11 @@
     "content3": "3. Memperluas ruang lingkup pendidikan sebagai implementasi dari sabda nabi 'Belajar dimulai dari dalam buaian ibu sampai liang lahat'.",
     "learn-more": "Learn about our projects"
   },
+  "about-info": {
+    "title": "Founder Kami",
+    "name": "KH. Ita Zaenal Mutaqien",
+    "desc": "Yayasan Sanusiah Al-Mansyuriah Sumedang didirikan oleh seorang pendiri bernama KH. Ita Zaenal Mutaqien pada tahun 2021. Yayasan ini berdiri di Dusun Pangjeleran Rt.03 Rw. 04 Desa Cigintung Kecamatan Cisitu Kabupaten Sumedang, Jawa Barat, Indonesia. KH. Ita Zaenal Mutaqien adalah seorang ulama dan tokoh agama yang sangat dihormati oleh masyarakat Sumedang dan sekitarnya."
+  },
   "ourProjects": {
     "title": "",
     "description": "MDTA Hidayatul Mutaqienes",
@@ -62,6 +67,24 @@
   },
   "about-us": {
     "title": "Sekilas Tentang Kami",
+    "description": "Yayasan Sanusiah Al-Mansuriah Sumedang didirikan dengan tujuan untuk menyebarkan ajaran agama Islam dan membantu masyarakat dalam hal pendidikan dan kesejahteraan sosial. Yayasan ini melakukan kegiatan kegiatan sosial seperti menyediakan sarana dan prasarana pendidikan untuk santri dll.",
+    "what-we-do": {
+      "title": "Apa yang kami lakukan?",
+      "item-1": "Menciptakan suasana pendidikan kepesantrenan yang unik, sejuk, dan membebaskan bagi para siswa. Kami berkomitmen untuk memberikan ruang kreativitas, kritisisme, entrepreneurship, dan wawasan internasional agar setiap siswa dapat mengembangkan potensi mereka secara holistik",
+      "item-2": "Kami berkomitmen untuk memperluas ruang lingkup pendidikan. Kami meyakini bahwa proses pembelajaran harus melibatkan semua tahap kehidupan, dan oleh karena itu, kami menyajikan pengalaman belajar yang komprehensif dari masa bayi hingga dewasa, memastikan perkembangan holistik siswa sesuai dengan tuntutan zaman."
+    },
+    "how-we-help": {
+      "title": "Bagaimana kami membantu?",
+      "item-1": "Kami memberikan dukungan dengan membentuk lingkungan pendidikan yang memperkaya dan membebaskan di dalam pesantren Islam kami. Komitmen kami terletak pada penyediaan ruang untuk kreativitas, berpikir kritis, kewirausahaan, dan pandangan internasional, memberdayakan setiap siswa untuk menggali potensi mereka sepenuhnya.",
+      "item-2": "Kami menyajikan perjalanan pendidikan yang menyeluruh mulai dari bayi hingga dewasa, memenuhi perkembangan holistik siswa sesuai dengan tuntutan dunia kontemporer untuk membentuk individu yang berdaya, tidak hanya secara akademis tetapi juga dilengkapi dengan keterampilan moral dan praktis yang diperlukan untuk berkembang di masyarakat global yang beragam dan terkoneksi."
+    },
+    "who-we-are": {
+      "title": "Siapa kami?",
+      "item-1": "Yayasan Sanusiah Al-Mansyuriah Sumedang didirikan oleh seorang pendiri bernama KH. Ita Zaenal Mutaqien pada tahun 2021. Yayasan ini berdiri di Dusun Pangjeleran Rt.03 Rw. 04 Desa Cigintung Kecamatan Cisitu Kabupaten Sumedang, Jawa Barat, Indonesia. KH. Ita Zaenal Mutaqien adalah seorang ulama dan tokoh agama yang sangat dihormati oleh masyarakat Sumedang dan sekitarnya."
+    }
+  },
+  "about-full": {
+    "title": "Latar Belakang",
     "description": "Yayasan Sanusiah Al-Mansuriah Sumedang didirikan dengan tujuan untuk menyebarkan ajaran agama Islam dan membantu masyarakat dalam hal pendidikan dan kesejahteraan sosial. Yayasan ini melakukan kegiatan kegiatan sosial seperti menyediakan sarana dan prasarana pendidikan untuk santri dll.",
     "what-we-do": {
       "title": "Apa yang kami lakukan?",

@@ -28,6 +28,11 @@
     "cta": "Join with us!",
     "know-more": "Read more"
   },
+  "about-info": {
+    "title": "Our Founder",
+    "name": "KH. Ita Zaenal Mutaqien",
+    "desc": "The Sanusiah Al-Mansyuriah Foundation in Sumedang was founded by a founder named KH. Ita Zaenal Mutaqien in 2021. This foundation is located in Pangjeleran Hamlet, Rt.03 Rw. 04, Cigintung Village, Cisitu District, Sumedang Regency, West Java, Indonesia. KH. Ita Zaenal Mutaqien is a respected religious scholar and figure, highly regarded by the community in Sumedang and its surrounding areas."
+  },
   "mission": {
     "title": "Our Vision and Mission",
     "description": "The birth of human resources that are religious, scientific, entrepreneurial-spirited, internationally-minded, environmentally conscious, and become beacons of world civilization.",
@@ -62,6 +67,24 @@
   },
   "about-us": {
     "title": "About us",
+    "description": "The Sanusiah Al-Mansuriah Foundation in Sumedang was established with the aim of spreading the teachings of Islam and assisting the community in terms of education and social welfare. The foundation engages in social activities such as providing facilities and infrastructure for students, and more.",
+    "what-we-do": {
+      "title": "What do we do?",
+      "item-1": "Creating a unique, serene, and liberating educational atmosphere in the Islamic boarding school setting for students. We are committed to providing space for creativity, critical thinking, entrepreneurship, and international perspectives, allowing each student to develop their potential holistically.",
+      "item-2": "We are committed to expanding the scope of education. We believe that the learning process should involve all stages of life; therefore, we offer a comprehensive learning experience from infancy to adulthood, ensuring the holistic development of students in line with the demands of the times."
+    },
+    "how-we-help": {
+      "title": "How do we help?",
+      "item-1": "We provide support by creating an enriching and liberating educational environment within our Islamic boarding school. Our commitment lies in providing space for creativity, critical thinking, entrepreneurship, and international perspectives, empowering every student to fully explore their potential.",
+      "item-2": "We offer a comprehensive educational journey from infancy to adulthood, meeting the holistic development of students in line with the demands of the contemporary world. Our aim is to shape individuals who are empowered, not only academically but also equipped with the moral and practical skills necessary to thrive in a diverse and interconnected global society."
+    },
+    "who-we-are": {
+      "title": "Who we are?",
+      "item-1": "The Sanusiah Al-Mansyuriah Foundation in Sumedang was established by a founder named KH. Ita Zaenal Mutaqien in 2021. The foundation is located in Dusun Pangjeleran, Rt.03 Rw. 04, Desa Cigintung, Kecamatan Cisitu, Kabupaten Sumedang, West Java, Indonesia. KH. Ita Zaenal Mutaqien is a respected religious scholar and figure in Sumedang and its surrounding communities."
+    }
+  },
+  "about-full": {
+    "title": "Background",
     "description": "The Sanusiah Al-Mansuriah Foundation in Sumedang was established with the aim of spreading the teachings of Islam and assisting the community in terms of education and social welfare. The foundation engages in social activities such as providing facilities and infrastructure for students, and more.",
     "what-we-do": {
       "title": "What do we do?",
