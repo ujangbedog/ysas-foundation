@@ -162,19 +162,24 @@
     }
   },
   "contact-us": {
-    "title": "Contact us",
-    "description": "Are you looking for a sensitivity and best practices workshop for your company, or personal therapy, or want to collaborate with us?",
-    "name": "Name",
-    "last-name": "Last name",
-    "email": "Email Address",
-    "information": "What information are you looking for?",
-    "options": {
-      "workshop": "Awareness workshop",
-      "good-practice": "Good practices for your institution",
-      "therapy": "Paid personal therapy",
-      "collaborate": "Collaborate with us"
-    },
-    "send-btn": "Send"
+    "title": "Contact Us",
+    "description": "Are you looking for a workshop on sensitivity and best practices for your company, or your child, or do you want to collaborate with us?",
+    "facebook": "Yayasan Sanusiah Al-Mansyuriah Sumedang",
+    "contact-me-facebook": "Contact us on Facebook.",
+    "contact-facebook": "Facebook",
+    "contact-phone": "Telepon",
+    "phone": "081313977111",
+    "contact-email": "Email",
+    "email": "yayasansanusiahalmansyuriahsum@gmail.com",
+    "location": "Dsn. Pangjeleran RT/RW 03/04 Ds. Cigintung Cisitu Sumedang",
+    "contact-me-location": "Open it on the map.",
+    "contact-location": "Location",
+    "whatsapp": "081313977111",
+    "contact-me-whatsapp": "Contact us on WhatsApp.",
+    "contact-whatsapp": "Whatsapp",
+    "youtube": "@YSASOfficial",
+    "contact-me-youtube": "Look on YouTube",
+    "contact-youtube": "Youtube"
   },
   "projects": {
     "subtitle": "Our projects",

@@ -165,7 +165,21 @@
     "title": "Hubungi Kami",
     "description": "Apakah Anda mencari workshop tentang sensitivitas dan praktik terbaik untuk perusahaan Anda, atau anak Anda, atau ingin berkolaborasi dengan kami?",
     "facebook": "Yayasan Sanusiah Al-Mansyuriah Sumedang",
-    "contact-me": "Hubungi"
+    "contact-me-facebook": "Hubungi di Facebook",
+    "contact-facebook": "Facebook",
+    "contact-phone": "Telepon",
+    "phone": "081313977111",
+    "contact-email": "Email",
+    "email": "yayasansanusiahalmansyuriahsum@gmail.com",
+    "location": "Dsn. Pangjeleran RT/RW 03/04 Ds. Cigintung Cisitu Sumedang",
+    "contact-me-location": "Buka di Map",
+    "contact-location": "Lokasi",
+    "whatsapp": "081313977111",
+    "contact-me-whatsapp": "Hubungi di Whatsapp",
+    "contact-whatsapp": "Whatsapp",
+    "youtube": "@YSASOfficial",
+    "contact-me-youtube": "Lihat Youtube",
+    "contact-youtube": "Youtube"
   },
   "projects": {
     "subtitle": "Our projects",

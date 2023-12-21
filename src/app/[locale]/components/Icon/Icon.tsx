@@ -17,6 +17,11 @@ import {
   WeightIcon,
   WomanIcon,
   ContactFacebook,
+  ContactPhone,
+  ContactEmail,
+  ContactLocation,
+  ContactWhatsapp,
+  ContactYoutube,
 } from "./icons";
 
 import styles from "./Icon.module.scss";
@@ -40,6 +45,11 @@ export enum eIcons {
   weight,
   woman,
   ContactFacebook,
+  ContactPhone,
+  ContactEmail,
+  ContactLocation,
+  ContactWhatsapp,
+  ContactYoutube,
 }
 
 export const Icon = ({
@@ -87,8 +97,18 @@ export const Icon = ({
         return <WomanIcon />;
       case eIcons.ContactFacebook:
         return <ContactFacebook />;
+      case eIcons.ContactPhone:
+        return <ContactPhone />;
+      case eIcons.ContactEmail:
+        return <ContactEmail />;
+      case eIcons.ContactLocation:
+        return <ContactLocation />;
+      case eIcons.ContactWhatsapp:
+        return <ContactWhatsapp />;
+      case eIcons.ContactYoutube:
+        return <ContactYoutube />;
     }
   };
-
+  
   return <div className={styles.icon + " " + className}>{renderIcon()}</div>;
 };
