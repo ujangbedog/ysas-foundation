@@ -47,6 +47,12 @@
     "content": "Madrasah Diniyah Takmiliyah Awaliyah Hidayatul Mutaqien adalah kegiatan mengaji yang diakui di kemenag.",
     "learn-more": "Learn more"
   },
+  "ourProducts": {
+    "title": "",
+    "description": "Umroh",
+    "content": "Yayasan ini didirikan untuk menyediakan produk Umroh bagi umat Islam yang ingin menjalankan ibadah Umroh. Produk Umroh yang disediakan oleh yayasan mencakup paket perjalanan yang mencakup berbagai fasilitas seperti akomodasi, transportasi, dan layanan pendukung lainnya. Dengan memahami pentingnya ibadah Umroh dalam ajaran Islam, yayasan berkomitmen untuk memberikan layanan yang berkualitas, aman, dan nyaman bagi jamaahnya. Semua kegiatan dan paket perjalanan disusun dengan memperhatikan aspek keagamaan, kenyamanan, dan keamanan, sehingga jamaah dapat menjalankan ibadah Umroh dengan penuh ketenangan dan khidmat.",
+    "learn-more": "Learn more"
+  },
   "ourProjects2": {
     "title": "",
     "description": "Goodness Green Farm",
@@ -206,25 +212,15 @@
     "contact-youtube": "Youtube"
   },
   "projects": {
-    "subtitle": "Our projects",
-    "title": "Be part of the change",
-    "description": "Your generous support for any of our projects is a valuable step toward a better world, where more women and girls can receive the help they need.",
-    "thank-you": "Thank you! All donations received are tax-deductible.",
-    "donate-card-last-donation": "Last donation: {time} {unit}",
-    "share-card-btn": "Share",
-    "share-card-btn-copied": "Url copied to clipboard!",
-    "donate-card-btn": "Donate now",
-    "total-donations": "{total} donations",
-    "raised": "collected out of",
-    "caption": "<b>Paramar Foundation</b>  aims to provide free psychological support to women and girls who have been victims of sexual assaults at any point in their lives",
-    "disclaimer-title": "<b>Paramar Foundation</b> is safe:",
-    "disclaimer-content": "All your donations are being safeguarded by strict security measures and designed procedures, ensuring that your generosity securely reaches those who need it the most.",
-    "page": {
       "title": "Program Kami",
       "description": "Kenali Program-program Kami",
       "content": "Program-program ini dirancang untuk mencapai tujuan utama dengan mengintegrasikan serangkaian aktivitas yang saling terkait. Program-program ini melibatkan koordinasi dan manajemen yang cermat untuk memastikan bahwa setiap aktivitas mendukung pencapaian tujuan secara keseluruhan."
-    }
   },
+  "products": {
+    "title": "Produk Kami",
+    "description": "Kenali Produk-Produk Kami",
+    "content": "Produk-produk ini dirancang untuk mencapai tujuan utama dengan mengintegrasikan serangkaian fitur yang saling terkait. Produk-produk ini melibatkan koordinasi dan manajemen yang cermat untuk memastikan bahwa setiap fitur mendukung pencapaian tujuan secara keseluruhan."
+},
   "faqs": {
     "title": "Frequently asked questions",
     "1": {

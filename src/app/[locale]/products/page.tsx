@@ -10,15 +10,14 @@ import {
   Footer,
   Main,
   NavigationBar,
-  Project,
-  OurProjects,
+  OurProducts,
   PageSection
 } from "../components";
 
-import styles from "./projects.module.scss";
+import styles from "./products.module.scss";
 
-export default function ProjectsPage() {
-  const t = useTranslations("projects");
+export default function ProductsPage() {
+  const t = useTranslations("products");
   const { data: projects } = api.projects.getAll.useQuery();
 
   return (
@@ -44,9 +43,9 @@ export default function ProjectsPage() {
       </PageSection>
 
       <PageSection>
-          <OurProjects />
+          <OurProducts />
       </PageSection>
-      
+  
       <Footer />
     </Main>
   );

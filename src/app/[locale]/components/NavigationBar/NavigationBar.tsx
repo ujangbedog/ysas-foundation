@@ -99,7 +99,7 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
 
   const product = () => {
     setMenuOpen(false);
-    router.push("/product");
+    router.push("/products");
   };
 
   const renderMenu = (modifier = "", isResponsive = false) => {
