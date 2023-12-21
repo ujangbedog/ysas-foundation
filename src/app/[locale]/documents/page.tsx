@@ -33,7 +33,7 @@ export default function Files() {
           <div className={styles.documents__content}>
             <h2 className={styles.documents__title}>{t("title")}</h2>
             <p className={styles.documents__update}>
-              {t.rich("last-update", { date: "12/10/2023" })}
+              {t.rich("last-update", { date: "21/12/2023" })}
             </p>
           </div>
           <ul className={styles.documents__list}>

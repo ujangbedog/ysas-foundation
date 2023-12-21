@@ -19,27 +19,7 @@ export const professionals = ["camila-gonzalez"];
 
 export const documentsData = [
   {
-    name: "articles-of-incorporation",
-    displayName: "Articles of Incorporation (EN)",
-  },
-  {
-    name: "brochure",
-    displayName: "Brochure (EN)",
-  },
-  {
-    name: "certificate-of-incorporation",
-    displayName: "Certificate of Incorporation (EN)",
-  },
-  {
-    name: "cover-letter",
-    displayName: "Cover Letter (EN)",
-  },
-  {
-    name: "folleto",
-    displayName: "Folleto (ES)",
-  },
-  {
-    name: "tax-number",
-    displayName: "TAX Number (EN)",
-  },
+    name: "whitepaper",
+    displayName: "Whitepaper",
+  }
 ] as IDocument[];
