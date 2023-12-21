@@ -97,6 +97,11 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
     router.push("/projects");
   };
 
+  const product = () => {
+    setMenuOpen(false);
+    router.push("/product");
+  };
+
   const renderMenu = (modifier = "", isResponsive = false) => {
     const style = `navigation-bar__menu-items${
       modifier !== "" ? `--${modifier}` : ""
@@ -126,6 +131,15 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
               onClick={() => handleTherapyCtaClick()}
             >
               {t("request-therapy-cta")}
+            </Button>
+
+            <Button
+              type={eButtonType.secondary}
+              color={secondaryCtaColor}
+              fullWidth
+              onClick={() => product()}
+            >
+              {t("product")}
             </Button>
           </>
         )}
@@ -161,6 +175,15 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
               onClick={() => handleTherapyCtaClick()}
             >
               {t("request-therapy-cta")}
+            </Button>
+
+            <Button
+              id={styles["more-info-btn"]}
+              type={eButtonType.secondary}
+              color={secondaryCtaColor}
+              onClick={() => product()}
+            >
+              {t("product")}
             </Button>
           </div>
         </section>

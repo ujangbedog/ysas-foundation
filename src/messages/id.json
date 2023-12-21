@@ -15,10 +15,11 @@
     "contact": "Hubungi Kami",
     "faqs": "SSD’s",
     "projects-cta": "Donasi",
-    "request-therapy-cta": "Program Kami"
+    "request-therapy-cta": "Program Kami",
+    "product": "Product Kami"
   },
   "footer": {
-    "rights": "@2023 all rights reserved",
+    "footer-text": "Hak Cipta Dilindungi.",
     "tax-disclaimer": "Yayasan Sanusiah Al-Mansyuriah Sumedang adalah organisasi yang terdaftar di Keputusan Mentri Hukum dan Hak Asasi Manusia Republik Indonesia dengan nomor: AHU-0027215.AH.01.04.Tahun 2021  <docs>Lihat dokumen hukum.</docs>"
   },
   "hero": {

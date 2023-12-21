@@ -15,10 +15,11 @@
     "contact": "Contact Us",
     "faqs": "FAQ’s",
     "projects-cta": "Donate here",
-    "request-therapy-cta": "Our Project"
+    "request-therapy-cta": "Our Project",
+    "product": "Our Product"
   },
   "footer": {
-    "rights": "@2023 all rights reserved",
+    "footer-text": "All rights reserved.",
     "tax-disclaimer": "Yayasan Sanusiah Al-Mansyuriah Sumedang is an organization registered under the Decision of the Minister of Law and Human Rights of the Republic of Indonesia with the number: AHU-0027215.AH.01.04.Year 2021. <docs>See legal document.</docs>"
   },
   "hero": {

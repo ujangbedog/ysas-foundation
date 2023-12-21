@@ -14,9 +14,11 @@ export const Footer = () => {
     <footer className={styles.footer}>
       <article className={styles.footer__content}>
         <div className={styles.footer__rights}>
-          <span>&copy; 2023 all rights reserved.</span>
-          <span>
-            <b>YSAS Foundation.</b>
+          <span>&copy; 2023 
+            <span>
+              <b> YSAS Foundation. </b>
+            </span>
+            {t("footer-text")}
           </span>
         </div>
         <ul className={styles.footer__socials}>

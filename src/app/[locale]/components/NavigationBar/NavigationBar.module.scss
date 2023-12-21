@@ -99,7 +99,7 @@
   width: 100%;
   height: 112px;
   background-color: transparent;
-  padding: spacing(4) spacing(8);
+  padding: spacing(4) spacing(4);
 
   &__wrapper {
     display: flex;
@@ -158,7 +158,7 @@
   &--light,
   &--menu-open,
   &--on-scroll {
-    padding: spacing(4) spacing(8);
+    padding: spacing(4) spacing(4);
 
     .navigation-bar__menu-items li a {
       color: $color-black;
@@ -206,7 +206,7 @@
 
   &--on-scroll {
     height: 96px;
-    padding: spacing(3) spacing(8);
+    padding: spacing(3) spacing(4);
   }
 
   &__responsive-menu {
