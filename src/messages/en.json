@@ -47,6 +47,11 @@
     "content": "Madrasah Diniyah Takmiliyah Awaliyah Hidayatul Mutaqien is a recognized Quranic study program by the Ministry of Religious Affairs.",
     "learn-more": "Learn more"
   },
+  "ourProducts": {
+    "title": "",
+    "description": "Umrah",
+    "content": "The foundation was established to provide Umrah products for Muslims who wish to perform the Umrah pilgrimage. The Umrah products offered by the foundation include travel packages that encompass various facilities such as accommodation, transportation, and other support services. Understanding the significance of the Umrah pilgrimage in Islamic teachings, the foundation is committed to delivering quality, safe, and comfortable services for its pilgrims. All activities and travel packages are organized with consideration for religious, comfort, and security aspects, allowing pilgrims to perform the Umrah pilgrimage with tranquility and devotion."
+  },
   "ourProjects2": {
     "title": "",
     "description": "Goodness Green Farm",
@@ -206,24 +211,14 @@
     "contact-youtube": "Youtube"
   },
   "projects": {
-    "subtitle": "Our projects",
-    "title": "Be part of the change",
-    "description": "Your generous support for any of our projects is a valuable step toward a better world, where more women and girls can receive the help they need.",
-    "thank-you": "Thank you! All donations received are tax-deductible.",
-    "donate-card-last-donation": "Last donation: {time} {unit}",
-    "share-card-btn": "Share",
-    "share-card-btn-copied": "Url copied to clipboard!",
-    "donate-card-btn": "Donate now",
-    "total-donations": "{total} donations",
-    "raised": "collected out of",
-    "caption": "<b>Paramar Foundation</b>  aims to provide free psychological support to women and girls who have been victims of sexual assaults at any point in their lives",
-    "disclaimer-title": "<b>Paramar Foundation</b> is safe:",
-    "disclaimer-content": "All your donations are being safeguarded by strict security measures and designed procedures, ensuring that your generosity securely reaches those who need it the most.",
-    "page": {
       "title": "Our Project",
       "description": "Get to know our projects",
       "content": "This project is designed to achieve the main goals of the project by integrating a series of interrelated activities. The project involves careful coordination and management to ensure that each activity supports the overall achievement of goals."
-    }
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "Get to Know Our Products",
+    "content": "These products are designed to achieve the main goals by integrating a series of interrelated features. These products involve careful coordination and management to ensure that each feature supports the overall achievement of goals."
   },
   "faqs": {
     "title": "Frequently asked questions",
