@@ -37,6 +37,7 @@
     flex-direction: column;
     gap: spacing(4);
     padding: 0 spacing(5);
+    color: #fff;
   }
 
   &__paint-top {
@@ -52,6 +53,47 @@
     left: 0;
     height: auto;
   }
+}
+
+/* Global CSS for icon */
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+}
+
+.nameVendor {
+  margin-left: 10%;
+  color: #fff;
+}
+
+.contact__content {
+  display: flex; /* Menggunakan flexbox untuk menyusun elemen secara horizontal */
+  align-items: left; /* Mengatur penempatan vertikal agar ikon dan teks berada di tengah */
+}
+
+.contact__card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact__icon {
+  margin-right: 10px;
+}
+
+.contact__icon svg {
+  width: 150%;
+  height: 150%;
+  fill: #fff;
 }
 
 @media (max-width: $breakpoint-xl) {

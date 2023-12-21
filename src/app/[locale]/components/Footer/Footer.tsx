@@ -3,7 +3,6 @@
 import { useTranslations } from "next-intl";
 import Link from "next-intl/link";
 
-import { Logo, eLogoType } from "../Logo";
 import { Icon, eIcons } from "../Icon";
 
 import styles from "./Footer.module.scss";

@@ -162,19 +162,10 @@
     }
   },
   "contact-us": {
-    "title": "Contact us",
-    "description": "Are you looking for a sensitivity and best practices workshop for your company, or personal therapy, or want to collaborate with us?",
-    "name": "Name",
-    "last-name": "Last name",
-    "email": "Email Address",
-    "information": "What information are you looking for?",
-    "options": {
-      "workshop": "Awareness workshop",
-      "good-practice": "Good practices for your institution",
-      "therapy": "Paid personal therapy",
-      "collaborate": "Collaborate with us"
-    },
-    "send-btn": "Send"
+    "title": "Hubungi Kami",
+    "description": "Apakah Anda mencari workshop tentang sensitivitas dan praktik terbaik untuk perusahaan Anda, atau anak Anda, atau ingin berkolaborasi dengan kami?",
+    "facebook": "Yayasan Sanusiah Al-Mansyuriah Sumedang",
+    "contact-me": "Hubungi"
   },
   "projects": {
     "subtitle": "Our projects",

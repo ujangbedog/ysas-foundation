@@ -16,6 +16,7 @@ import {
   QuoteIcon,
   WeightIcon,
   WomanIcon,
+  ContactFacebook,
 } from "./icons";
 
 import styles from "./Icon.module.scss";
@@ -38,6 +39,7 @@ export enum eIcons {
   quote,
   weight,
   woman,
+  ContactFacebook,
 }
 
 export const Icon = ({
@@ -83,6 +85,8 @@ export const Icon = ({
         return <WeightIcon />;
       case eIcons.woman:
         return <WomanIcon />;
+      case eIcons.ContactFacebook:
+        return <ContactFacebook />;
     }
   };
 
