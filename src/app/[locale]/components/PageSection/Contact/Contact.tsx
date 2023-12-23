@@ -41,7 +41,7 @@ export const Contact = ({ pageType = "contact-us" }) => {
           </div>
           <br />
           <Link
-            href="https://wa.me/081313977111"
+            href="https://wa.me/+6281313977111"
             target="_blank"
           >
           <Button
