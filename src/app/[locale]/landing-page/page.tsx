@@ -53,7 +53,7 @@ export default function LandingPage() {
         <PageSection>
           <Ambassadors />
         </PageSection>
-        <PageSection bgImage="/bg-numbers.jpg" bgDefaultColor="#6432c8">
+        <PageSection bgImage="/issue.jpg" bgDefaultColor="#6432c8">
           <Numbers />
         </PageSection>
         <PageSection>

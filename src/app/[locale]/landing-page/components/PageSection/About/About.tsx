@@ -23,7 +23,7 @@ export const About = () => {
           className={styles["paint-top"]}
         />
         <Image
-          src="/mission-section.jpg"
+          src="/founder.jpg"
           alt="Three women"
           width={600}
           height={700}
