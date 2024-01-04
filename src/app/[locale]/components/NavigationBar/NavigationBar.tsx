@@ -152,7 +152,7 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
           })}
           
           <div className={styles["menu-selection"]} onMouseLeave={() => handleMouseLeave()}>
-          <li key="about" className={styles["about"]}>
+          <li key="about" className={styles["home"]}>
             <div className="onMouse" onMouseEnter={() => setDisplayingAbout(true)}>
               <div className={styles["menu-selection__selected"]} onClick={() => setDisplayingAbout(!isDisplayingAbout)}>
                 About Us
