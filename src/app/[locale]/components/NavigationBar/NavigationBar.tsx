@@ -35,6 +35,8 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
   const menuRef = useRef(null);
   const scroll = useContext(MainScrollContext);
 
+  const [isMobile, setIsMobile] = useState(false);
+
   const handleSelect = (locale: string) => {
     setSelectedLocale(locale);
     setDisplayingAbout(false);
@@ -150,32 +152,30 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
               </li>
             );
           })}
-          
-          <div className={styles["menu-selection"]} onMouseLeave={() => handleMouseLeave()}>
-          <li >
+          <div className={isResponsive ? styles["menu-selection-responsive"] : styles["menu-selection"]} onMouseLeave={() => handleMouseLeave()}>
             <div className="onMouse" onMouseEnter={() => setDisplayingAbout(true)}>
               <div className={styles["menu-selection__selected"]} onClick={() => setDisplayingAbout(!isDisplayingAbout)}>
-                About Us
+                
+                  About Us
                 <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
-              </div>
+              </div>      
             </div>
-          </li>
-          <li>
             <div className="onMouse" onMouseEnter={() => setDisplayingInformation(true)}>
               <div className={styles["menu-selection__selected"]} onClick={() => setDisplayingInformation(!isDisplayingInformation)}>
-                Informasi Publik
+                
+                  Informasi Publik
+                
                 <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
               </div>
             </div>
-          </li>
-          <li>
             <div className="onMouse" onMouseEnter={() => setDisplayingService(true)}>
               <div className={styles["menu-selection__selected"]} onClick={() => setDisplayingService(!isDisplayingService)}>
-                Layanan Kami
+                
+                  Layanan
+                
                 <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
               </div>
             </div>
-          </li>
           
           {isDisplayingAbout && (
             <div className={styles["menu-selection__list"]} onMouseEnter={() => setDisplayingAbout(true)}>
@@ -224,7 +224,6 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
           )}
           </div>
         </ul>
-
         
         {isResponsive && (
           <>

@@ -65,7 +65,6 @@
   font-size: 16px;
   font-weight: 700;
   color: $color-white;
-  
 
   &__icon {
     width: 24px;
@@ -81,6 +80,7 @@
     align-items: center;
     padding: spacing(1);
     cursor: pointer;
+    color: $color-purple;
   }
 
   &__list {
@@ -99,7 +99,7 @@
       justify-content: center;
       width: 100%;
       background-color: $color-white;
-      color: $color-purple;
+      color: $color-black;
       padding: spacing(1);
       cursor: pointer;
 
@@ -402,11 +402,8 @@
 
     &--menu-open {
       .navigation-bar__responsive-menu {
-        button,
+        button, .menu-selection,
         .language-selection {
-          display: none !important;
-        }
-        .menu-selection {
           display: none !important;
         }
       }
@@ -441,11 +438,8 @@
 
     &--menu-open {
       .navigation-bar__responsive-menu {
-        button,
+        button, .menu-selection,
         .language-selection {
-          display: flex !important;
-        }
-        .menu-selection {
           display: flex !important;
         }
       }
