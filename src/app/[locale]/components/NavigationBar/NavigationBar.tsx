@@ -44,9 +44,9 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
 
   const menuItems = [
     { value: "home", link: "/" },
-    // { value: "about", link: "/about" },
-    // { value: "contact", link: "/contact" },
-    // { value: "faqs", link: "/faqs" },
+    { value: "about", link: "/about" },
+    { value: "information", link: "/contact" },
+    { value: "service", link: "/faqs" },
   ] as const;
 
   const getClassName = () => {
@@ -142,53 +142,65 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
             );
           })}
         </ul> */}
-        <ul>
-          {menuItems.map((item) => {
-            return (
-              <li key={item.value} className={styles[item.value]}>
-                <Link onClick={() => setMenuOpen(false)} href={item.link}>
-                  {t(item.value)}
-                </Link>
-              </li>
-            );
-          })}
-          <div className={isResponsive ? styles["menu-selection-responsive"] : styles["menu-selection"]} onMouseLeave={() => handleMouseLeave()}>
-            <div className="onMouse" onMouseEnter={() => setDisplayingAbout(true)}>
-              <div className={styles["menu-selection__selected"]} onClick={() => setDisplayingAbout(!isDisplayingAbout)}>
-                
-                  About Us
-                <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
-              </div>      
-            </div>
-            <div className="onMouse" onMouseEnter={() => setDisplayingInformation(true)}>
-              <div className={styles["menu-selection__selected"]} onClick={() => setDisplayingInformation(!isDisplayingInformation)}>
-                
-                  Informasi Publik
-                
-                <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
-              </div>
-            </div>
-            <div className="onMouse" onMouseEnter={() => setDisplayingService(true)}>
-              <div className={styles["menu-selection__selected"]} onClick={() => setDisplayingService(!isDisplayingService)}>
-                
-                  Layanan
-                
-                <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
-              </div>
-            </div>
-          
+        <div className={isResponsive ? styles["menu-selection-responsive"] : styles["menu-selection"]} onMouseLeave={() => handleMouseLeave()}>
+          <ul>
+            {menuItems.map((item) => {
+              return (
+                <li key={item.value} className={styles[item.value]}>
+                  {item.value === "home" && (
+                    // Content for the "home" menu item
+                    <Link onClick={() => setMenuOpen(false)} href={item.link}>
+                      {t(item.value)}
+                    </Link>
+                  )}
+                  {item.value === "about" && (
+                    // Content for the "about" menu item
+                    <div className="onMouse" onMouseEnter={() => setDisplayingAbout(true)}>
+                      <div className={styles["language-selection__selected"]} onClick={() => setDisplayingAbout(!isDisplayingAbout)}>
+                          About Us
+                          <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
+                      </div>      
+                    </div>
+                  )}
+                  {item.value === "information" && (
+                    // Content for the "information" menu item
+                    <>
+                      <div className="onMouse" onMouseEnter={() => setDisplayingInformation(true)}>
+                        <div className={styles["language-selection__selected"]} onClick={() => setDisplayingInformation(!isDisplayingInformation)}>
+                          
+                            Informasi Publik
+                          
+                          <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
+                        </div>
+                      </div>
+                    </>
+                  )}
+                  {item.value === "service" && (
+                    // Content for the "service" menu item
+                    <>
+                      <div className="onMouse" onMouseEnter={() => setDisplayingService(true)}>
+                        <div className={styles["language-selection__selected"]} onClick={() => setDisplayingService(!isDisplayingService)}>
+                          
+                            Layanan
+                          
+                          <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </li>
+              );
+            })}
+
           {isDisplayingAbout && (
             <div className={styles["menu-selection__list"]} onMouseEnter={() => setDisplayingAbout(true)}>
-              <div className={styles["menu-selection__con"]}>
-                <h1>About</h1>
-                <ul>
-                    <li>
-                      asdasdasd
-                    </li>
-                    <li>
-                      asdasdasd
-                    </li>
-                </ul>
+              <div className={styles["menu-select ion__con"]}>
+                <Link href="">
+                  <h3>About</h3>
+                </Link>
+                <Link href="">
+                  <h3>About</h3>
+                </Link>
               </div>
             </div>
           )}
@@ -222,8 +234,9 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
               </div>
             </div>
           )}
-          </div>
-        </ul>
+          </ul>
+          
+        </div>
         
         {isResponsive && (
           <>
