@@ -1,1 +1,1 @@
-# YSAS Foundation Landing Page
+# YSAS Foundation
