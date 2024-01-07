@@ -186,8 +186,18 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
-                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/report">{t("report")}</Link>
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/galery">{t("galery")}</Link>
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/agenda">{t("agenda")}</Link>
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/blog">{t("blog")}</Link>
+                          </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
                     </div>
@@ -203,8 +213,12 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
-                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/projects">{t("program")}</Link>
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/products">{t("product")}</Link>
+                          </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
                     </div>
@@ -218,23 +232,6 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
         {isResponsive && (
           <>
             <LanguageSelection />
-            <Button
-              type={eButtonType.secondary}
-              color={secondaryCtaColor}
-              fullWidth
-              onClick={() => handleTherapyCtaClick()}
-            >
-              {t("request-therapy-cta")}
-            </Button>
-
-            <Button
-              type={eButtonType.secondary}
-              color={secondaryCtaColor}
-              fullWidth
-              onClick={() => product()}
-            >
-              {t("product")}
-            </Button>
           </>
         )}
       </article>
@@ -263,23 +260,6 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
             <LanguageSelection />
             <Button onClick={() => handleProjectsCtaClick()}>
               {t("projects-cta")}
-            </Button>
-            <Button
-              id={styles["more-info-btn"]}
-              type={eButtonType.secondary}
-              color={secondaryCtaColor}
-              onClick={() => handleTherapyCtaClick()}
-            >
-              {t("request-therapy-cta")}
-            </Button>
-
-            <Button
-              id={styles["more-info-btn"]}
-              type={eButtonType.secondary}
-              color={secondaryCtaColor}
-              onClick={() => product()}
-            >
-              {t("product")}
             </Button>
           </div>
         </section>

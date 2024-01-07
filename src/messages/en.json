@@ -5,15 +5,19 @@
     "contact": "Contact Us",
     "faqs": "FAQ’s",
     "projects-cta": "Donate here",
-    "request-therapy-cta": "Our Project",
-    "product": "Our Product",
+    "program": "Project",
+    "product": "Products",
     "about": "About Us",
     "information": "Information",
-    "service": "Service",
+    "service": "Our Service",
     "profile": "Profile",
     "adrt": "ADART",
     "legal": "Legal Documents",
-    "tnc": "Term & Condition"
+    "tnc": "Term & Condition",
+    "report": "Report",
+    "galery": "Galery",
+    "agenda": "Agenda",
+    "blog": "Blog"
   },
   "footer": {
     "footer-text": "All rights reserved.",

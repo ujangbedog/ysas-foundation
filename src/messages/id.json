@@ -5,15 +5,19 @@
     "contact": "Hubungi Kami",
     "faqs": "SSD’s",
     "projects-cta": "Donasi",
-    "request-therapy-cta": "Program Kami",
-    "product": "Product Kami",
+    "program": "Program",
+    "product": "Product",
     "about": "Tentang Kami",
     "information": "Informasi Publik",
     "service": "Layanan Kami",
     "profile": "Profil",
     "adrt": "ADART",
     "legal": "Dokumen Legal",
-    "tnc": "Syarat dan Ketentuan"
+    "tnc": "Syarat dan Ketentuan",
+    "report": "Laporan",
+    "galery": "Geleri",
+    "agenda": "Agenda",
+    "blog": "Blog"
   },
   "footer": {
     "footer-text": "Hak Cipta Dilindungi.",

@@ -39,7 +39,7 @@ export const LanguageSelection = ({
         className={styles["language-selection__selected"]}
         onClick={() => setDisplayingOptions(!isDisplayingOptions)}
       >
-        <p>{selectedLocale}</p>
+        {selectedLocale}
         <Icon
           icon={eIcons.chevronDown}
           className={styles["language-selection__icon"]}
