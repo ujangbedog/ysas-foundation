@@ -115,6 +115,39 @@
     "programs": "Laporan Kegiatan",
     "btn-go": "Lihat Laporan"
   },
+  
+  "terms": {
+    "title": "Syarat dan Ketentuan",
+    "description": "Selamat datang di situs web Yayasan Sanusiah Al-Mansuriah Sumedang ('Yayasan'). Dengan mengakses atau menggunakan situs web ini, Anda dianggap menyetujui dan terikat oleh syarat dan ketentuan berikut. Jika Anda tidak setuju dengan salah satu ketentuan ini, harap untuk tidak melanjutkan penggunaan situs ini.",
+    "foot": "Dengan menggunakan situs web ini, Anda setuju untuk mematuhi dan terikat oleh syarat dan ketentuan ini. Jika ada pertanyaan atau klarifikasi yang diperlukan, silakan hubungi Yayasan Sanusiah Al-Mansuriah Sumedang melalui informasi kontak yang disediakan.",
+    "sub-1": {
+      "title": "1. Informasi dan Hak Cipta:",
+      "point-1": "Seluruh konten, termasuk teks, gambar, dan elemen desain lainnya, dilindungi oleh hak cipta dan merupakan milik Yayasan Sanusiah Al-Mansuriah Sumedang kecuali dinyatakan lain.",
+      "point-2": "Pengguna tidak diperbolehkan mengunduh, mereproduksi, atau menggunakan materi dari situs ini tanpa izin tertulis dari Yayasan."
+    },
+    "sub-2": {
+      "title": "2. Visi dan Misi:",
+      "point-1": "Visi dan misi Yayasan adalah panduan inti yang harus diakui oleh pengguna sebagai landasan dan tujuan dari aktivitas dan program yang diselenggarakan."
+    },
+    "sub-3": {
+      "title": "3. Penggunaan Data dan Privasi:",
+      "point-1": "Data peserta didik dan informasi lain yang diberikan dalam situs ini akan dihormati dan dijaga kerahasiaannya sesuai dengan kebijakan privasi Yayasan.",
+      "point-2": "Pengguna dengan ini menyetujui pengumpulan dan penggunaan data pribadi mereka sesuai dengan kebijakan privasi yang berlaku."
+    },
+    "sub-4": {
+      "title": "4. Keluhan dan Umpan Balik:",
+      "point-1": "Pengguna dapat menyampaikan keluhan atau memberikan umpan balik melalui saluran yang disediakan dalam situs ini.",
+      "point-2": "Yayasan berkomitmen untuk menanggapi keluhan dengan segera dan memberikan solusi yang sesuai."
+    },
+    "sub-5": {
+      "title": "5. Tautan Eksternal:",
+      "point-1": "Situs ini mungkin menyertakan tautan ke situs web eksternal. Yayasan tidak bertanggung jawab atas konten atau kebijakan privasi situs web pihak ketiga tersebut."
+    },
+    "sub-6": {
+      "title": "6. Pembaruan dan Perubahan:",
+      "point-1": "Yayasan berhak untuk memperbarui, mengubah, atau menghapus syarat dan ketentuan ini tanpa pemberitahuan sebelumnya. Pengguna diharapkan untuk memeriksa halaman ini secara berkala."
+    }
+  },
   "numbers": {
     "title": "MASALAH DALAM ANGKA",
     "1": {
