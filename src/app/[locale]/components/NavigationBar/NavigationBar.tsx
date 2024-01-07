@@ -156,8 +156,21 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                          <Dropdown.Item href="#">Link 1</Dropdown.Item>
-                          <Dropdown.Item href="#">Link 2</Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/about">{t("profile")}</Link>
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="#">{t("adrt")}</Link>  
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/documents">{t("legal")}</Link>
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="/contact">{t("contact")}</Link>
+                          </Dropdown.Item>
+                          <Dropdown.Item>
+                            <Link href="#">{t("tnc")}</Link>
+                          </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
                     </div>

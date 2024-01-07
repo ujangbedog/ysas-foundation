@@ -7,9 +7,13 @@
     "projects-cta": "Donate here",
     "request-therapy-cta": "Our Project",
     "product": "Our Product",
-    "about": "about Us",
+    "about": "About Us",
     "information": "Information",
-    "service": "Service"
+    "service": "Service",
+    "profile": "Profile",
+    "adrt": "ADART",
+    "legal": "Legal Documents",
+    "tnc": "Term & Condition"
   },
   "footer": {
     "footer-text": "All rights reserved.",

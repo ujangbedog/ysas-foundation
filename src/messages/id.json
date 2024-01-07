@@ -9,7 +9,11 @@
     "product": "Product Kami",
     "about": "Tentang Kami",
     "information": "Informasi Publik",
-    "service": "Layanan Kami"
+    "service": "Layanan Kami",
+    "profile": "Profil",
+    "adrt": "ADART",
+    "legal": "Dokumen Legal",
+    "tnc": "Syarat dan Ketentuan"
   },
   "footer": {
     "footer-text": "Hak Cipta Dilindungi.",
