@@ -113,6 +113,38 @@
     "programs": "Programs Report",
     "btn-go": "See Report"
   },
+  "terms": {
+    "title": "Terms and Conditions",
+    "description": "Welcome to the website of Sanusiah Al-Mansuriah Foundation Sumedang ('Foundation'). By accessing or using this website, you are deemed to agree to and be bound by the following terms and conditions. If you do not agree with any of these terms, please refrain from continuing to use this site.",
+    "foot": "By using this website, you agree to comply with and be bound by these terms and conditions. If there are any questions or clarifications needed, please contact Sanusiah Al-Mansuriah Foundation Sumedang through the provided contact information.",
+    "sub-1":{
+      "title": "1. Information and Copyright:",
+      "point-1": "All content, including text, images, and other design elements, is protected by copyright and is the property of Sanusiah Al-Mansuriah Foundation Sumedang unless stated otherwise.",
+      "point-2": "Users are not allowed to download, reproduce, or use material from this site without written permission from the Foundation."
+    },
+    "sub-2":{
+      "title": "2. Vision and Mission:",
+        "point-1": "The Foundation's vision and mission are core guidelines that must be acknowledged by users as the foundation and objectives of the activities and programs organized."
+    },
+    "sub-3":{
+      "title": "3. Data Usage and Privacy:",
+      "point-1": "Student data and other information provided on this site will be respected and kept confidential in accordance with the Foundation's privacy policy.",
+      "point-2": "Users hereby agree to the collection and use of their personal data in accordance with the applicable privacy policy."
+    },
+    "sub-4":{
+      "title": "4. Complaints and Feedback:",
+      "point-1": "Users can submit complaints or provide feedback through the channels provided on this site.",
+      "point-2": "The Foundation is committed to responding to complaints promptly and providing appropriate solutions."
+    },
+    "sub-5":{
+      "title": "5. External Links:",
+      "point-1": "This site may include links to external websites. The Foundation is not responsible for the content or privacy policies of these third-party websites."
+    },
+    "sub-6":{
+      "title": "6. Updates and Changes:",
+      "point-1": "The Foundation reserves the right to update, modify, or delete these terms and conditions without prior notice. Users are expected to check this page periodically."
+    }
+  },
   "numbers": {
     "title": "The Issue in Numbers",
     "1": {

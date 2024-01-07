@@ -11,3 +11,4 @@ export * from "./Therapy";
 export * from "./WhyUs";
 export * from "./About";
 export * from "./Report";
+export * from "./Terms";

@@ -1,0 +1,81 @@
+@import "~/styles/functions.scss";
+@import "~/styles/mixins.scss";
+@import "~/styles/variables.scss";
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @include section;
+
+
+  &__title {
+    margin-bottom: spacing(3);
+    font-size: 49px;
+  }
+
+  &__body {
+    max-width: 762px;
+    text-align: justify;
+    margin-bottom: spacing(5);
+  }
+
+  &__content {
+    text-align: justify;
+    display: block;
+    position: relative;
+
+    &__sub{
+      text-align: center;
+      align-items: center;
+      clear: both;
+    }
+
+    ul {
+      li{
+        list-style-type: disc; /* Atau sesuaikan dengan jenis titik yang Anda inginkan (circle, square, dll.) */
+        padding-left: spacing(1);
+      }
+    }
+  }
+
+}
+
+@media (max-width: $breakpoint-lg) {
+  .about-us {
+    @include section-lg;
+
+    &__title {
+      font-size: 42px;
+    }
+
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .about-us {
+    @include section-md;
+
+    &__title {
+      font-size: 32px;
+    }
+
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .about-us {
+    @include section-sm;
+
+    &__title {
+      font-size: 28px;
+    }
+
+    .card ul li {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
