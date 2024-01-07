@@ -65,6 +65,7 @@
   font-size: 16px;
   font-weight: 700;
   color: $color-white;
+  margin-left: 3%;
 
   .ase{
     color: #000;
@@ -224,6 +225,7 @@
           
           &:visited {
             color: $color-purple;
+            border-top: solid 1px $color-grey-100;
           }
 
         }

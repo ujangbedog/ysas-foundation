@@ -10,7 +10,6 @@ import { Dropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Button, eButtonColor, eButtonType } from "../Button";
-import { Icon, eIcons } from "../Icon";
 import { Logo, eLogoType } from "../Logo";
 import { LanguageSelection } from "./LanguajeSelection";
 import { Hamburguer } from "./Hamburger";
@@ -54,14 +53,7 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
 
   const handleMouseLeaveDropdown = () => {
     setShowAboutDropdown(false);
-    // Tambahkan penanganan lain di sini jika perlu
   };
-
-  // const handleMouseLeave = () => {
-  //   setDisplayingAbout(false);
-  //   setDisplayingInformation(false);
-  //   setDisplayingService(false);
-  // };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -110,14 +102,9 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
     window.open("https://sociabuzz.com/hidayatulmutaqqin/tribe", '_blank');
   };
 
-  const handleTherapyCtaClick = () => {
+  const blog = () => {
     setMenuOpen(false);
-    router.push("/projects");
-  };
-
-  const product = () => {
-    setMenuOpen(false);
-    router.push("/products");
+    router.push("/blog");
   };
 
   const home = () => {
@@ -136,9 +123,6 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
               return (
                 <li key={item.value} className={styles[item.value]}>
                   {item.value === "home" && (
-                      // <Link onClick={() => setMenuOpen(false)} href={item.link}>
-                      //   {t(item.value)}
-                      // </Link>
                       <p onClick={() => home()}>
                         {t(item.value)}
                       </p>
@@ -160,7 +144,7 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
                             <Link href="/about">{t("profile")}</Link>
                           </Dropdown.Item>
                           <Dropdown.Item>
-                            <Link href="#">{t("adrt")}</Link>  
+                            <Link href="adart">{t("adrt")}</Link>  
                           </Dropdown.Item>
                           <Dropdown.Item>
                             <Link href="/documents">{t("legal")}</Link>
@@ -169,7 +153,7 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
                             <Link href="/contact">{t("contact")}</Link>
                           </Dropdown.Item>
                           <Dropdown.Item>
-                            <Link href="#">{t("tnc")}</Link>
+                            <Link href="/terms">{t("tnc")}</Link>
                           </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
@@ -194,9 +178,6 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
                           </Dropdown.Item>
                           <Dropdown.Item>
                             <Link href="/agenda">{t("agenda")}</Link>
-                          </Dropdown.Item>
-                          <Dropdown.Item>
-                            <Link href="/blog">{t("blog")}</Link>
                           </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
@@ -232,6 +213,15 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
         {isResponsive && (
           <>
             <LanguageSelection />
+
+            <Button
+              type={eButtonType.secondary}
+              color={secondaryCtaColor}
+              fullWidth
+              onClick={() => blog()}
+            >
+              {t("blog")}
+            </Button>
           </>
         )}
       </article>
@@ -260,6 +250,15 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
             <LanguageSelection />
             <Button onClick={() => handleProjectsCtaClick()}>
               {t("projects-cta")}
+            </Button>
+
+            <Button
+              id={styles["more-info-btn"]}
+              type={eButtonType.secondary}
+              color={secondaryCtaColor}
+              onClick={() => blog()}
+            >
+              {t("blog")}
             </Button>
           </div>
         </section>

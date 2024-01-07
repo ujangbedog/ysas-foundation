@@ -1,14 +1,13 @@
 {
   "nav": {
     "home": "Home",
-    "ambassadors": "About Us",
-    "contact": "Contact Us",
+    "contact": "Contact",
     "faqs": "FAQ’s",
     "projects-cta": "Donate here",
-    "program": "Project",
+    "program": "Projects",
     "product": "Products",
     "about": "About Us",
-    "information": "Information",
+    "information": "Public Information",
     "service": "Our Service",
     "profile": "Profile",
     "adrt": "ADART",
@@ -106,6 +105,13 @@
       "title": "Who we are?",
       "item-1": "The Sanusiah Al-Mansyuriah Foundation in Sumedang was established by a founder named KH. Ita Zaenal Mutaqien in 2021. The foundation is located in Dusun Pangjeleran, Rt.03 Rw. 04, Desa Cigintung, Kecamatan Cisitu, Kabupaten Sumedang, West Java, Indonesia. KH. Ita Zaenal Mutaqien is a respected religious scholar and figure in Sumedang and its surrounding communities."
     }
+  },
+  "report": {
+    "title": "Report",
+    "description": "The foundation report summarizes the activities and financial condition of a non-profit organization. It consists of financial statements that include income, expenses, balance sheets, and cash flows, as well as an activity report that highlights projects, achievements, and positive impacts.",
+    "financial": "Financial Report",
+    "programs": "Programs Report",
+    "btn-go": "See Report"
   },
   "numbers": {
     "title": "The Issue in Numbers",

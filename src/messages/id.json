@@ -2,7 +2,7 @@
   "nav": {
     "home": "Beranda",
     "ambassadors": "Tentang Kami",
-    "contact": "Hubungi Kami",
+    "contact": "Kontak",
     "faqs": "SSD’s",
     "projects-cta": "Donasi",
     "program": "Program",
@@ -107,6 +107,13 @@
       "title": "Siapa kami?",
       "item-1": "Yayasan Sanusiah Al-Mansyuriah Sumedang didirikan oleh seorang pendiri bernama KH. Ita Zaenal Mutaqien pada tahun 2021. Yayasan ini berdiri di Dusun Pangjeleran Rt.03 Rw. 04 Desa Cigintung Kecamatan Cisitu Kabupaten Sumedang, Jawa Barat, Indonesia. KH. Ita Zaenal Mutaqien adalah seorang ulama dan tokoh agama yang sangat dihormati oleh masyarakat Sumedang dan sekitarnya."
     }
+  },
+  "report": {
+    "title": "Laporan",
+    "description": "Laporan yayasan merangkum kegiatan dan kondisi keuangan suatu organisasi nirlaba. Terdiri dari laporan keuangan yang mencakup pendapatan, pengeluaran, neraca, dan arus kas, serta laporan kegiatan yang menyoroti proyek, pencapaian, dan dampak positif.",
+    "financial": "Laporan Keuangan",
+    "programs": "Laporan Kegiatan",
+    "btn-go": "Lihat Laporan"
   },
   "numbers": {
     "title": "MASALAH DALAM ANGKA",
