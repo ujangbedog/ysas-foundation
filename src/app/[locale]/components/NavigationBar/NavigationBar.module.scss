@@ -12,6 +12,7 @@
   font-weight: 700;
   text-transform: uppercase;
   color: $color-white;
+  margin-top: 2%;
   
 
   &__icon {
@@ -66,6 +67,10 @@
   font-weight: 700;
   color: $color-white;
 
+  .ase{
+    color: #000;
+  }
+
   &__icon {
     width: 24px;
     height: 20px;
@@ -94,6 +99,10 @@
 
     @include card;
 
+    ul {
+      cursor: pointer;
+    }
+
     li {
       display: flex;
       justify-content: center;
@@ -106,35 +115,25 @@
       &:hover {
         background-color: $color-grey-100;
       }
-    }
-  }
 
-  &__con {
-    position: absolute;
-    top: 95%;
-    width: spacing(90);
-    height: spacing(20);
-    background-color: $color-white;
-    padding: spacing(1) 0;
-    border-radius: 4px;
-    color: #000;
+      a {
+        // Updated styles for the menu item text
+        text-decoration: none;
+        color: $color-black;
 
-    @include card;
+        &:visited {
+          color: $color-black;
+        }
+      } 
 
-    li {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      background-color: $color-white;
-      color: $color-purple;
-      padding: spacing(1);
-      cursor: pointer;
-
-      &:hover {
-        background-color: $color-grey-100;
+      p {
+        cursor: pointer;
       }
+
     }
+
   }
+
 }
 
 .hamburger {
@@ -205,10 +204,11 @@
     display: flex;
     align-items: center;
     flex-grow: 1;
+    margin-top: 2%;
 
     ul {
       display: flex;
-      gap: spacing(1);
+      gap: spacing(2);
 
       li {
         display: flex;
@@ -223,10 +223,15 @@
           font-size: 16px;
           font-weight: 700;
           color: $color-white;
+          text-decoration: none;
 
           &:visited {
-            color: $color-white;
+            color: $color-black;
           }
+        }
+
+        p {
+          cursor: pointer;
         }
       }
     }
@@ -330,25 +335,55 @@
         padding: spacing(1) spacing(3) spacing(3);
         background-color: $color-white;
 
-        li {
-          display: flex;
-          border-bottom: solid 1px $color-grey-100;
-          border-top: solid 1px $color-grey-100;
-
-          &:first-child {
-            border-top-width: 0px;
-          }
-
-          a {
-            padding: spacing(2) spacing(1);
-            width: 100%;
-            color: $color-purple;
-
-            &:visited {
-              color: $color-purple;
-            }
-          }
+        ul {
+          color: $color-purple !important;
+          padding: spacing(0);
           
+          &:visited {
+            color: $color-purple;
+          }
+
+          li {
+            display: flex;
+            border-bottom: solid 1px $color-grey-100;
+            border-top: solid 1px $color-grey-100;
+            padding: spacing(2);
+
+            &:first-child {
+              border-top-width: 0px;
+            }
+  
+            a {
+              padding: spacing(2) spacing(1);
+              width: 100%;
+              color: $color-purple;
+              text-decoration: none;
+  
+              &:visited {
+                color: $color-purple;
+              }
+            }
+  
+            p {
+              color: $color-purple;
+              text-decoration: none;
+  
+              &:visited {
+                color: $color-purple;
+              }
+            }
+  
+            .onMouse {
+              color: $color-purple !important;
+              text-decoration: none !important;
+              padding: spacing(5) !important;
+  
+              &:visited {
+                color: $color-purple !important;
+              }
+            }
+            
+          }
         }
 
         .language-selection {
@@ -406,6 +441,16 @@
         button, .menu-selection,
         .language-selection {
           display: none !important;
+        }
+
+        a {
+          // Updated styles for the content text in the dropdown
+          text-decoration: none;
+          color: $color-black;
+  
+          &:visited {
+            color: $color-black;
+          }
         }
       }
     }
@@ -466,71 +511,3 @@
   }
 }
 
-/* ... existing styles ... */
-
-@media (max-width: $breakpoint-md) {
-  .navigation-bar {
-    height: 104px;
-    padding: spacing(4);
-
-    .hamburger {
-      display: flex;
-      width: spacing(3.5);
-    }
-
-    .language-selection,
-    .menu-selection {
-      display: none;
-    }
-
-    #more-info-btn {
-      display: none;
-    }
-
-    &--on-scroll {
-      height: 88px;
-      padding: spacing(3) spacing(4);
-    }
-
-    &--menu-open {
-      .navigation-bar__responsive-menu {
-        button,
-        .language-selection,
-        .menu-selection {
-          display: flex !important;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: $breakpoint-sm) {
-  .navigation-bar {
-    height: 96px;
-    padding: spacing(3);
-
-    &__logo-container {
-      display: flex;
-      height: 100%;
-      padding: spacing(1) 0;
-    }
-
-    .hamburger {
-      display: flex;
-    }
-
-    .language-selection,
-    .menu-selection {
-      display: none;
-    }
-
-    #more-info-btn {
-      display: none;
-    }
-
-    &--on-scroll {
-      height: 72px;
-      padding: spacing(1.5) spacing(3);
-    }
-  }
-}

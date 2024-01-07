@@ -21,9 +21,6 @@ import {
 
 import { About, AboutFull } from "../landing-page/components/PageSection";
 
-import styles from "./about.module.scss";
-import Link from "next/link";
-
 export default function AboutPage() {
   const t = useTranslations("ambassadors");
   const locale = useLocale();

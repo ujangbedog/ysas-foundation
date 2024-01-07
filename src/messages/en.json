@@ -6,7 +6,10 @@
     "faqs": "FAQ’s",
     "projects-cta": "Donate here",
     "request-therapy-cta": "Our Project",
-    "product": "Our Product"
+    "product": "Our Product",
+    "about": "about Us",
+    "information": "Information",
+    "service": "Service"
   },
   "footer": {
     "footer-text": "All rights reserved.",

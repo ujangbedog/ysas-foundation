@@ -6,6 +6,9 @@ import { useLocale } from "next-intl";
 import { useRouter } from "next-intl/client";
 import Link from "next-intl/link";
 
+import { Dropdown } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import { Button, eButtonColor, eButtonType } from "../Button";
 import { Icon, eIcons } from "../Icon";
 import { Logo, eLogoType } from "../Logo";
@@ -14,13 +17,11 @@ import { Hamburguer } from "./Hamburger";
 
 import styles from "./NavigationBar.module.scss";
 import { MainScrollContext } from "~/src/contexts";
-import { color } from "html2canvas/dist/types/css/types/color";
 
 export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
-  const [selectedLocale, setSelectedLocale] = useState(useLocale());
-  const [isDisplayingAbout, setDisplayingAbout] = useState(false);
-  const [isDisplayingInformation, setDisplayingInformation] = useState(false);
-  const [isDisplayingService, setDisplayingService] = useState(false);
+  const [showAboutDropdown, setShowAboutDropdown] = useState(false);
+  const [showInformationDropdown, setShowInformationDropdown] = useState(false);
+  const [showServiceDropdown, setShowServiceDropdown] = useState(false);
   const t = useTranslations("nav");
   const [isScroll, setScroll] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -34,13 +35,6 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
   const scroll = useContext(MainScrollContext);
-
-  const [isMobile, setIsMobile] = useState(false);
-
-  const handleSelect = (locale: string) => {
-    setSelectedLocale(locale);
-    setDisplayingAbout(false);
-  };
 
   const menuItems = [
     { value: "home", link: "/" },
@@ -58,14 +52,16 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
     ].join(" ");
   };
 
-  const handleMouseLeave = () => {
-    // Implement the logic to handle mouse leave
-    // For example, you can close all dropdowns by resetting their states
-    setDisplayingAbout(false);
-    setDisplayingInformation(false);
-    setDisplayingService(false);
-    // ... (reset other states for other menu items)
+  const handleMouseLeaveDropdown = () => {
+    setShowAboutDropdown(false);
+    // Tambahkan penanganan lain di sini jika perlu
   };
+
+  // const handleMouseLeave = () => {
+  //   setDisplayingAbout(false);
+  //   setDisplayingInformation(false);
+  //   setDisplayingService(false);
+  // };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -111,7 +107,6 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
 
   const handleProjectsCtaClick = () => {
     setMenuOpen(false);
-    // router.push("/projects");
     window.open("https://sociabuzz.com/hidayatulmutaqqin/tribe", '_blank');
   };
 
@@ -125,117 +120,86 @@ export const NavigationBar = ({ light = false, scrollThreshold = 220 }) => {
     router.push("/products");
   };
 
+  const home = () => {
+    setMenuOpen(false);
+    router.push("/");
+  };
+
   const renderMenu = (modifier = "", isResponsive = false) => {
     const style = `navigation-bar__menu-items${modifier !== "" ? `--${modifier}` : ""}`;
 
     return (
       <article className={styles[style]} ref={menuRef}>
-
-        {/* <ul>
-          {menuItems.map((item) => {
-            return (
-              <li key={item.value} className={styles[item.value]}>
-                <Link onClick={() => setMenuOpen(false)} href={item.link}>
-                  {t(item.value)}
-                </Link>
-              </li>
-            );
-          })}
-        </ul> */}
-        <div className={isResponsive ? styles["menu-selection-responsive"] : styles["menu-selection"]} onMouseLeave={() => handleMouseLeave()}>
+        <div className={isResponsive ? styles["menu-selection-responsive"] : styles["menu-selection"]} onMouseLeave={() => handleMouseLeaveDropdown()}>
           <ul>
             {menuItems.map((item) => {
               return (
                 <li key={item.value} className={styles[item.value]}>
                   {item.value === "home" && (
-                    // Content for the "home" menu item
-                    <Link onClick={() => setMenuOpen(false)} href={item.link}>
-                      {t(item.value)}
-                    </Link>
+                      // <Link onClick={() => setMenuOpen(false)} href={item.link}>
+                      //   {t(item.value)}
+                      // </Link>
+                      <p onClick={() => home()}>
+                        {t(item.value)}
+                      </p>
                   )}
                   {item.value === "about" && (
-                    // Content for the "about" menu item
-                    <div className="onMouse" onMouseEnter={() => setDisplayingAbout(true)}>
-                      <div className={styles["language-selection__selected"]} onClick={() => setDisplayingAbout(!isDisplayingAbout)}>
-                          About Us
-                          <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
-                      </div>      
+                    <div
+                      className="onMouse"
+                      onClick={() => setShowAboutDropdown(!showAboutDropdown)}
+                      onMouseEnter={() => setShowAboutDropdown(true)}
+                      onMouseLeave={() => setShowAboutDropdown(false)}
+                    >
+                      <Dropdown show={showAboutDropdown} onMouseLeave={() => setShowAboutDropdown(false)}>
+                        <Dropdown.Toggle as="div" className="ase" variant="success" id="dropdown-basic">
+                          {t(item.value)}
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                          <Dropdown.Item href="#">Link 1</Dropdown.Item>
+                          <Dropdown.Item href="#">Link 2</Dropdown.Item>
+                        </Dropdown.Menu>
+                      </Dropdown>
                     </div>
                   )}
                   {item.value === "information" && (
-                    // Content for the "information" menu item
-                    <>
-                      <div className="onMouse" onMouseEnter={() => setDisplayingInformation(true)}>
-                        <div className={styles["language-selection__selected"]} onClick={() => setDisplayingInformation(!isDisplayingInformation)}>
-                          
-                            Informasi Publik
-                          
-                          <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
-                        </div>
-                      </div>
-                    </>
+                    <div className="onMouse" 
+                      onClick={() => setShowInformationDropdown(!showInformationDropdown)}
+                      onMouseEnter={() => setShowInformationDropdown(true)} 
+                      onMouseLeave={() => setShowInformationDropdown(false)}>
+                      <Dropdown show={showInformationDropdown} onMouseLeave={() => setShowInformationDropdown(false)}>
+                        <Dropdown.Toggle as="div" variant="success" id="dropdown-basic">
+                        {t(item.value)}
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
+                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
+                        </Dropdown.Menu>
+                      </Dropdown>
+                    </div>
                   )}
                   {item.value === "service" && (
-                    // Content for the "service" menu item
-                    <>
-                      <div className="onMouse" onMouseEnter={() => setDisplayingService(true)}>
-                        <div className={styles["language-selection__selected"]} onClick={() => setDisplayingService(!isDisplayingService)}>
-                          
-                            Layanan
-                          
-                          <Icon icon={eIcons.chevronDown} className={styles["menu-selection__icon"]} />
-                        </div>
-                      </div>
-                    </>
+                    <div className="onMouse" 
+                      onClick={() => setShowServiceDropdown(!showServiceDropdown)}
+                      onMouseEnter={() => setShowServiceDropdown(true)} 
+                      onMouseLeave={() => setShowServiceDropdown(false)}>
+                      <Dropdown show={showServiceDropdown} onMouseLeave={() => setShowServiceDropdown(false)}>
+                        <Dropdown.Toggle as="div" variant="success" id="dropdown-basic">
+                          {t(item.value)}
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
+                          <Dropdown.Item href="#">asdasdasd</Dropdown.Item>
+                        </Dropdown.Menu>
+                      </Dropdown>
+                    </div>
                   )}
                 </li>
               );
             })}
-
-          {isDisplayingAbout && (
-            <div className={styles["menu-selection__list"]} onMouseEnter={() => setDisplayingAbout(true)}>
-              <div className={styles["menu-select ion__con"]}>
-                <Link href="">
-                  <h3>About</h3>
-                </Link>
-                <Link href="">
-                  <h3>About</h3>
-                </Link>
-              </div>
-            </div>
-          )}
-          {isDisplayingInformation && (
-            <div className={styles["menu-selection__list"]} onMouseEnter={() => setDisplayingInformation(true)}>
-              <div className={styles["menu-selection__con"]}>
-                <h1>Informasi Publik</h1>
-                <ul>
-                    <li>
-                      asdasdasd
-                    </li>
-                    <li>
-                      asdasdasd
-                    </li>
-                </ul>
-              </div>
-            </div>
-          )}
-          {isDisplayingService && (
-            <div className={styles["menu-selection__list"]} onMouseEnter={() => setDisplayingService(true)}>
-              <div className={styles["menu-selection__con"]}>
-                <h1>Service</h1>
-                <ul>
-                    <li>
-                      asdasdasd
-                    </li>
-                    <li>
-                      asdasdasd
-                    </li>
-                </ul>
-              </div>
-            </div>
-          )}
           </ul>
-          
         </div>
         
         {isResponsive && (

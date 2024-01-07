@@ -10,3 +10,4 @@ export const config = {
   // certain folders and all pathnames with a dot (e.g. favicon.ico)
   matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
 };
+
