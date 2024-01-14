@@ -44,7 +44,7 @@
   },
   "ourProjects": {
     "title": "",
-    "description": "MDTA Hidayatul Mutaqienes",
+    "description": "MDTA Hidayatul Mutaqien",
     "content": "Madrasah Diniyah Takmiliyah Awaliyah Hidayatul Mutaqien adalah kegiatan mengaji yang diakui di kemenag.",
     "learn-more": "Learn more"
   },
@@ -70,6 +70,12 @@
     "title": "",
     "description": "Service Centre",
     "content": "Servise Centre adalah lab untuk mendukung kegiatan integra madani dalam hal praktik IT.",
+    "learn-more": "Learn more"
+  },
+  "myGalery": {
+    "title": "",
+    "description": "Umroh",
+    "content": "Yayasan ini didirikan untuk menyediakan produk Umroh bagi umat Islam yang ingin menjalankan ibadah Umroh. Produk Umroh yang disediakan oleh yayasan mencakup paket perjalanan yang mencakup berbagai fasilitas seperti akomodasi, transportasi, dan layanan pendukung lainnya. Dengan memahami pentingnya ibadah Umroh dalam ajaran Islam, yayasan berkomitmen untuk memberikan layanan yang berkualitas, aman, dan nyaman bagi jamaahnya. Semua kegiatan dan paket perjalanan disusun dengan memperhatikan aspek keagamaan, kenyamanan, dan keamanan, sehingga jamaah dapat menjalankan ibadah Umroh dengan penuh ketenangan dan khidmat.",
     "learn-more": "Learn more"
   },
   "about-us": {
@@ -242,6 +248,11 @@
     "title": "Produk Kami",
     "description": "Kenali Produk-Produk Kami",
     "content": "Produk-produk ini dirancang untuk mencapai tujuan utama dengan mengintegrasikan serangkaian fitur yang saling terkait. Produk-produk ini melibatkan koordinasi dan manajemen yang cermat untuk memastikan bahwa setiap fitur mendukung pencapaian tujuan secara keseluruhan."
+  },
+  "galery": {
+    "title": "Geleri",
+    "description": "Geleri - Geleri Program Kami",
+    "content": "asedekontol"
   },
   "faqs": {
     "title": "Soal Sering Ditanya (Pertanyaan Umum)",

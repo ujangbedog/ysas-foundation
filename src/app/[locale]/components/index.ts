@@ -13,3 +13,4 @@ export * from "./PageSection";
 export * from "./OurProjects";
 export * from "./OurProducts";
 export * from "./Loading";
+export * from "./Galery";
