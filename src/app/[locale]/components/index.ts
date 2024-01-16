@@ -14,3 +14,4 @@ export * from "./OurProjects";
 export * from "./OurProducts";
 export * from "./Loading";
 export * from "./Galery";
+export * from "./Album";

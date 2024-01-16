@@ -17,7 +17,7 @@
 
   &__body {
     max-width: 762px;
-    text-align: center;
+    text-align: justify;
     margin-bottom: spacing(8);
   }
 
@@ -32,6 +32,7 @@
       padding: spacing(3.5) spacing(3.5) spacing(8);
       border-radius: 10px;
       color: $color-white;
+      text-align: justify;
 
       @include card;
 

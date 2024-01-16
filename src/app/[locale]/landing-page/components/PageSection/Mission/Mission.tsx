@@ -23,7 +23,7 @@ export const Mission = () => {
           className={styles["paint-top"]}
         />
         <Image
-          src="/goals.jpg"
+          src="/target.jpg"
           alt="Three women"
           width={600}
           height={700}

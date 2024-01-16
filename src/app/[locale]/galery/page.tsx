@@ -1,49 +1,59 @@
 "use client";
 
-import { Fragment } from "react";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+import Link from "next-intl/link";
 
-import { api } from "~/src/trpc/react";
 
 import {
   Footer,
+  Icon,
   Main,
   NavigationBar,
-  Galery,
-  PageSection
+  PageSection,
+  eIcons,
 } from "../components";
 
 import styles from "./galery.module.scss";
+import { galeryData } from "~/src/constants";
 
-export default function ProductsPage() {
-  const t = useTranslations("galery");
-  const { data: projects } = api.projects.getAll.useQuery();
+export default function GaleryPage() {
+  const t = useTranslations("galerys");
 
   return (
     <Main>
-      <NavigationBar scrollThreshold={10} />
-      <PageSection bgImage="/bg-projects-page.jpg">
-        <div className={styles.header}>
-          <div className={styles.header__content}>
-            <p className={styles.header__content__subtitle}>{t("title")}</p>
-            <h2 className={styles.header__content__title}>
-              {t("description")}
-            </h2>
-            <p className={styles.header__content__body}>{t("content")}</p>
-          </div>
-          <Image
-            className={styles.header__paint}
-            src={"/paints/hero.png"}
-            alt="Paint splatter decoration"
-            width={300}
-            height={300}
-          />
-        </div>
+      <NavigationBar scrollThreshold={10} light />
+        <PageSection
+          bgImage="/paints/faqs-banner.jpg"
+          bgDefaultColor="#1c1d20"
+          isFirstSection
+        >
+        <div className={styles.header} />
       </PageSection>
 
-      <PageSection>
-          <Galery />
+      <PageSection isLastSection>
+        <article className={styles.documents}>
+          <div className={styles.documents__content}>
+            <h2 className={styles.documents__title}>{t("title")}</h2>
+            <p className={styles.documents__update}>
+              {t.rich("last-update", { date: "21/12/2023" })}
+            </p>
+          </div>
+          <ul className={styles.documents__list}>
+            {galeryData.map(({ album, displayName, date }) => (
+              <li key={album} className={styles.link}>
+                <hr />
+                <Link href={"/galery/" + album} className={styles.link__main}>
+                  <Icon icon={eIcons.arrowRight} />
+                  <div className={styles.link__content}>
+                    <div className={styles.link__name}>{displayName}</div>
+                    <div className={styles.link__date}>{date}</div>
+                  </div>
+                </Link>
+                
+              </li>
+            ))}
+          </ul>
+        </article>
       </PageSection>
   
       <Footer />

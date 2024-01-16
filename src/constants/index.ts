@@ -1,4 +1,4 @@
-import type { IDocument } from "../types";
+import type { IDocument, IGalery } from "../types";
 
 export const breakpoints = {
   xl: 1440,
@@ -23,3 +23,15 @@ export const documentsData = [
     displayName: "Whitepaper",
   }
 ] as IDocument[];
+
+export const galeryData: IGalery[] = [
+  {
+    album: "mubes",
+    displayName: "Musyawarah Besar",
+    date: "29 Desember 2023",
+  },
+  // {
+  //   album: "album2",
+  //   displayName: "Album 2",
+  // },
+];

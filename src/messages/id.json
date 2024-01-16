@@ -31,7 +31,7 @@
   },
   "mission": {
     "title": "Visi dan Misi kami",
-    "description": "Lahirnya sumber daya manusia yang religious, saintis, berjiwa entrepreneur, berwawasan international, cinta lingkungan dan menjadi lentera Peradaban dunia",
+    "description": "Lahirnya sumber daya manusia yang religious, saintis, berjiwa entrepreneur, berwawasan international, cinta lingkungan dan menjadi lentera Peradaban dunia.",
     "content1": "1. Menciptakan suasana pendidikan kepesantrenan yang sejuk dan membebaskan dengan memberikan ruang kreativitas, kritisisme, entrepreneurship, dan berwawasan internasional",
     "content2": "2. Mengimplementasi kurikulum integral antara muatan peneguhan moral spiritual, tradisi keilmuan Islam klasik, dan kompetensi dasar-dasar saintis modern internasional melalui system asrama (boarding) melalui penerapan mangemen pendidikan sistemik, terencana dan terkontrol.",
     "content3": "3. Memperluas ruang lingkup pendidikan sebagai implementasi dari sabda nabi 'Belajar dimulai dari dalam buaian ibu sampai liang lahat'.",
@@ -321,5 +321,10 @@
     "title": "Dokumen Hukum",
     "last-update": "Terakhir Diupdate: {date}",
     "go-back-link": "Kembali ke Dokumen"
+  },
+  "galerys": {
+    "title": "Geleri",
+    "last-update": "Terakhir Diupdate: {date}",
+    "go-back-link": "Kembali ke Galery"
   }
 }
