@@ -1,4 +1,4 @@
-import { Photo, CommonClassProps } from "~/types";
+import type { Photo, CommonClassProps } from "~/types";
 import style from "./index.module.scss";
 import cl from "classnames";
 import { useEffect, useRef, useMemo } from "react";
@@ -14,38 +14,28 @@ export const PreviewGallery: React.FC<PreviewGalleryProps> = ({
   photos,
   className,
 }) => {
+  const previewContainer = useRef<HTMLUListElement>(null);
+
   if (!photos.length) {
     return null;
   }
 
-  const previewContainer = useRef<HTMLUListElement>(null);
-
-  useEffect(() => {
-    if (!previewContainer.current) {
-      return;
-    }
-
-    previewContainer.current.style.transform = `translate3d(-${activePhotoIndex * 164}px, 0, 0)`;
-  }, [activePhotoIndex]);
-
   return (
     <div className={cl(style.previewGallery, className)}>
-      {useMemo(() => (
-        <ul className={style.previewGalleryTrack} ref={previewContainer}>
-          {photos.map((photo) => (
-            <li key={photo.id} className={style.previewGalleryPreview}>
-              {/* Use the Image component for better optimization */}
-              <Image
-                src={photo.preview}
-                alt={photo.description}
-                className={style.previewGalleryImage}
-                width={640}
-                height={420}
-              />
-            </li>
-          ))}
-        </ul>
-      ), [photos, previewContainer])}
+      <ul className={style.previewGalleryTrack} ref={previewContainer}>
+        {photos.map((photo) => (
+          <li key={photo.id} className={style.previewGalleryPreview}>
+            {/* Use the Image component for better optimization */}
+            <Image
+              src={photo.preview}
+              alt={photo.description}
+              className={style.previewGalleryImage}
+              width={640}
+              height={420}
+            />
+          </li>
+        ))}
+      </ul>
       <div className={style.previewGalleryCover}>
         {activePhotoIndex + 1}/{photos.length}
       </div>
