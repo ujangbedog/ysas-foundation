@@ -6,22 +6,22 @@ export const env = createEnv({
    * Specify your server-side environment variables schema here. This way you can ensure the app
    * isn't built with invalid env vars.
    */
-  server: {
-    BASE_URL: z.string(),
-    STRIPE_WEBHOOK_ID: z.string(),
-    STRIPE_PUBLIC_KEY: z.string(),
-    STRIPE_SECRET_KEY: z.string(),
-    DATABASE_URL: z
-      .string()
-      .url()
-      .refine(
-        (str) => !str.includes("YOUR_MYSQL_URL_HERE"),
-        "You forgot to change the default URL"
-      ),
-    NODE_ENV: z
-      .enum(["development", "test", "production"])
-      .default("development"),
-  },
+  // server: {
+  //   BASE_URL: z.string(),
+  //   STRIPE_WEBHOOK_ID: z.string(),
+  //   STRIPE_PUBLIC_KEY: z.string(),
+  //   STRIPE_SECRET_KEY: z.string(),
+  //   DATABASE_URL: z
+  //     .string()
+  //     .url()
+  //     .refine(
+  //       (str) => !str.includes("YOUR_MYSQL_URL_HERE"),
+  //       "You forgot to change the default URL"
+  //     ),
+  //   NODE_ENV: z
+  //     .enum(["development", "test", "production"])
+  //     .default("development"),
+  // },
 
   /**
    * Specify your client-side environment variables schema here. This way you can ensure the app
@@ -37,10 +37,10 @@ export const env = createEnv({
    * middlewares) or client-side so we need to destruct manually.
    */
   runtimeEnv: {
-    STRIPE_WEBHOOK_ID: process.env.STRIPE_WEBHOOK_ID,
-    STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
-    STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
-    DATABASE_URL: process.env.DATABASE_URL,
+    // STRIPE_WEBHOOK_ID: process.env.STRIPE_WEBHOOK_ID,
+    // STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
+    // STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+    // DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
     BASE_URL: process.env.BASE_URL,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,

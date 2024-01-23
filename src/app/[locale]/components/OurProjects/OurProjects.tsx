@@ -3,9 +3,6 @@
 import Image from "next/image";
 
 import { useTranslations } from "next-intl";
-import { useRouter } from "next-intl/client";
-
-import { Button, eButtonColor } from "../Button";
 
 import styles from "./OurProjects.module.scss";
 
@@ -14,7 +11,6 @@ export const OurProjects = () => {
   const y = useTranslations("ourProjects2");
   const u = useTranslations("ourProjects3");
   const i = useTranslations("ourProjects4");
-  const router = useRouter();
 
   return (
     <article className={styles.ourProjects}>

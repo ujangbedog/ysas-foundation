@@ -4,9 +4,6 @@
 import "~/styles/globals.scss";
 
 import { Inter } from "next/font/google";
-import { headers } from "next/headers";
-
-import { TRPCReactProvider } from "~/trpc/react";
 
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
@@ -70,10 +67,8 @@ export default async function LocaleLayout({
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <TRPCReactProvider headers={headers()}>
-            {children}
-            <SpeedInsights />
-          </TRPCReactProvider>
+          {children}
+          <SpeedInsights />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -1,4 +1,7 @@
 {
+  "generic":{
+    "success-btn": "Success"
+  },
   "nav": {
     "home": "Home",
     "contact": "Contact",
@@ -112,6 +115,9 @@
     "financial": "Financial Report",
     "programs": "Programs Report",
     "btn-go": "See Report"
+  },
+  "adart": {
+    "title": "ADART"
   },
   "terms": {
     "title": "Terms and Conditions",

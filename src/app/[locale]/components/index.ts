@@ -1,6 +1,5 @@
 export * from "./Accordeon";
 export * from "./Button";
-export * from "./DonateCard";
 export * from "./Footer";
 export * from "./Icon";
 export * from "./IconButton";
@@ -13,5 +12,4 @@ export * from "./PageSection";
 export * from "./OurProjects";
 export * from "./OurProducts";
 export * from "./Loading";
-export * from "./Galery";
 export * from "./Album";

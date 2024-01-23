@@ -19,7 +19,6 @@ const Album: React.FC<GalleryProps> = ({ photos }) => {
   const [indexActivePhoto, setIndexActivePhoto] = useState(0);
 
   // State for message
-  const [message, setMessage] = useState<string>('');
 
   // Check if there are no photos, return null
   if (!photos.length) {

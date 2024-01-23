@@ -1,6 +1,6 @@
 // MainPhoto.tsx
 import React from "react";
-import { Photo, CommonClassProps } from "~/types";
+import type { Photo, CommonClassProps } from "~/types";
 import Image from "next/image";
 import cl from "classnames";
 import style from "./index.module.scss";

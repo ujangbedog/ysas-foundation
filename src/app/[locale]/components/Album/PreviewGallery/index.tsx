@@ -1,7 +1,7 @@
 import type { Photo, CommonClassProps } from "~/types";
 import style from "./index.module.scss";
 import cl from "classnames";
-import { useEffect, useRef, useMemo } from "react";
+import { useRef } from "react";
 import Image from "next/image";
 
 interface PreviewGalleryProps extends CommonClassProps {

@@ -1,6 +1,6 @@
 import cl from "classnames"
 import style from "./index.module.scss"
-import {Photo, CommonClassProps} from "~/types"
+import type { CommonClassProps} from "~/types"
 
 interface NavigationProps extends CommonClassProps {
     disabledPrev?: boolean;

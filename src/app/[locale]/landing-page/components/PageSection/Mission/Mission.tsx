@@ -3,13 +3,11 @@
 import Image from "next/image";
 
 import { useTranslations } from "next-intl";
-import { useRouter } from "next-intl/client";
 
 import styles from "./Mission.module.scss";
 
 export const Mission = () => {
   const t = useTranslations("mission");
-  const router = useRouter();
 
   return (
     <article className={styles.mission}>

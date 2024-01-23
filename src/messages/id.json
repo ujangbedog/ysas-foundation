@@ -1,4 +1,7 @@
 {
+  "generic":{
+    "success-btn": "Success"
+  },
   "nav": {
     "home": "Beranda",
     "ambassadors": "Tentang Kami",

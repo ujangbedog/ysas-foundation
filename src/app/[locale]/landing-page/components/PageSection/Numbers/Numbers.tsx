@@ -1,16 +1,12 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useRouter } from "next-intl/client";
 import Image from "next/image";
-
-import { Button, eButtonColor } from "../../../../components/Button";
 
 import styles from "./Numbers.module.scss";
 
 export const Numbers = () => {
   const t = useTranslations("numbers");
-  const router = useRouter();
   const numbers = [1, 2, 3] as const;
 
   return (

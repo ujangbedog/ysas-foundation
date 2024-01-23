@@ -1,10 +1,7 @@
 "use client";
 
-import { Fragment } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
-import { api } from "~/src/trpc/react";
 
 import {
   Footer,
@@ -18,7 +15,6 @@ import styles from "./products.module.scss";
 
 export default function ProductsPage() {
   const t = useTranslations("products");
-  const { data: projects } = api.projects.getAll.useQuery();
 
   return (
     <Main>

@@ -2,7 +2,6 @@
 
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
-import { useLocale } from "next-intl";
 import { useRouter } from "next-intl/client";
 import Link from "next-intl/link";
 

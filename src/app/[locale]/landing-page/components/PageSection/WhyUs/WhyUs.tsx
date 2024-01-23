@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useRouter } from "next-intl/client";
 import Image from "next/image";
 
 import { Button, eButtonColor } from "../../../../components/Button";
@@ -10,7 +9,6 @@ import styles from "./WhyUs.module.scss";
 
 export const WhyUs = () => {
   const t = useTranslations("why-us");
-  const router = useRouter();
 
   const paintList = [
     "/paints/artist.png",

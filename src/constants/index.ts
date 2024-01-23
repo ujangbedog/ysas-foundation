@@ -7,20 +7,10 @@ export const breakpoints = {
   sm: 480,
 };
 
-export const ambassadors = [
-  "violeta-arus",
-  "silvina-reyes",
-  "carlota-corzo",
-  "emily-zembo",
-  "yu-fu",
-];
-
-export const professionals = ["camila-gonzalez"];
-
 export const documentsData = [
   {
-    name: "whitepaper",
-    displayName: "Whitepaper",
+    name: "sk-kemenkumham",
+    displayName: "SK-Kemenkumham",
   }
 ] as IDocument[];
 
