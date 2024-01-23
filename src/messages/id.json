@@ -124,7 +124,9 @@
     "programs": "Laporan Kegiatan",
     "btn-go": "Lihat Laporan"
   },
-  
+  "adart": {
+    "title": "ADART"
+  },
   "terms": {
     "title": "Syarat dan Ketentuan",
     "description": "Selamat datang di situs web Yayasan Sanusiah Al-Mansuriah Sumedang ('Yayasan'). Dengan mengakses atau menggunakan situs web ini, Anda dianggap menyetujui dan terikat oleh syarat dan ketentuan berikut. Jika Anda tidak setuju dengan salah satu ketentuan ini, harap untuk tidak melanjutkan penggunaan situs ini.",
