@@ -8,6 +8,7 @@ import { Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
@@ -68,6 +69,7 @@ export default async function LocaleLayout({
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
+          <Analytics />
           <SpeedInsights />
         </NextIntlClientProvider>
       </body>
